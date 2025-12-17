@@ -34,28 +34,23 @@ jobs:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
+          cache: npm
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: npm install
 
       - name: Merge archive traffic data
-        run: pnpm run merge-archives
+        run: npm run merge-archives
 
       - name: Merge archive stars data
-        run: pnpm run merge-stars
+        run: npm run merge-stars
 
       - name: Commit merged data (if changed)
         if: github.event_name == 'schedule' || github.event_name == 'workflow_run'
@@ -69,7 +64,7 @@ jobs:
           fi
 
       - name: Build
-        run: pnpm run build
+        run: npm run build
 
       - name: Add .nojekyll
         run: touch ./dist/.nojekyll

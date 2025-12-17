@@ -30,7 +30,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TRAFFIC_DATA_TOKEN }}
         run: |
-          python download_traffic.py --repo cuga-project/cuga-agent --output-dir traffic_data_latest
+          python download_traffic.py --repo AgentToolkit/agent-lifecycle-toolkit --output-dir traffic_data_latest
 
       - name: Create timestamped backup
         run: |

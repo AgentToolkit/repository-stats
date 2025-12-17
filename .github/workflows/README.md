@@ -12,7 +12,7 @@ This directory contains GitHub Actions workflows for the CUGA Stats dashboard.
 
 **Steps**:
 1. Checkout code
-2. Setup Node.js and pnpm
+2. Setup Node.js
 3. Install dependencies
 4. Build the application
 5. Deploy to GitHub Pages
@@ -23,7 +23,7 @@ This directory contains GitHub Actions workflows for the CUGA Stats dashboard.
 - Scheduled: Every Sunday at midnight UTC
 - Manual: via workflow_dispatch
 
-**Purpose**: Downloads GitHub traffic data from `cuga-project/cuga-agent` and commits it to this repository.
+**Purpose**: Downloads GitHub traffic data from `AgentToolkit/agent-lifecycle-toolkit` and commits it to this repository.
 
 **Requirements**:
 - Repository secret `TRAFFIC_DATA_TOKEN` with a GitHub PAT
@@ -44,21 +44,21 @@ This directory contains GitHub Actions workflows for the CUGA Stats dashboard.
 
 ### Prerequisites
 
-You need admin or maintain access to `cuga-project/cuga-agent` to access traffic data.
+You need admin or maintain access to `AgentToolkit/agent-lifecycle-toolkit` to access traffic data.
 
 ### Create a Personal Access Token
 
 1. Go to [GitHub Settings > Tokens (classic)](https://github.com/settings/tokens)
 2. Click "Generate new token (classic)"
 3. Configure:
-   - Note: `CUGA Stats Traffic Data`
+   - Note: `Agent Lifecycle Repository Stats Traffic Data`
    - Expiration: 90 days or 1 year
    - Scopes: Select **`repo`**
 4. Copy the token
 
 ### Add Token to Repository
 
-1. Go to repository settings: [Secrets and variables > Actions](https://github.com/cuga-project/cuga-stats/settings/secrets/actions)
+1. Go to repository settings: [Secrets and variables > Actions](https://github.com/AgentToolkit/repository-stats/settings/secrets/actions)
 2. Click "New repository secret"
 3. Name: `TRAFFIC_DATA_TOKEN`
 4. Value: Paste your PAT
@@ -75,7 +75,7 @@ git push origin main
 
 ### Fetch Traffic Data
 
-1. Go to [Actions](https://github.com/cuga-project/cuga-stats/actions)
+1. Go to [Actions](https://github.com/AgentToolkit/repository-stats/actions)
 2. Select "Fetch Traffic Data" workflow
 3. Click "Run workflow"
 4. Select branch and click "Run workflow"
@@ -87,7 +87,7 @@ git push origin main
 **Cause**: Token doesn't have sufficient permissions or user doesn't have admin access.
 
 **Solution**:
-1. Verify you have admin/maintain role on `cuga-project/cuga-agent`
+1. Verify you have admin/maintain role on `AgentToolkit/agent-lifecycle-toolkit`
 2. Verify token has `repo` scope (classic) or `Administration: Read` (fine-grained)
 3. Regenerate token if needed and update the repository secret
 
