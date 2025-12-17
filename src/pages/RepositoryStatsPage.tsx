@@ -143,7 +143,6 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
       <Header lastUpdated={lastUpdated}/>
 
       <RepositoryMetricsGridSection
-        last7Days={last7Days}
         last7DaysClones={last7DaysClones}
         last7DaysStars={last7DaysStars}
         last7DaysPyPI={last7DaysPyPI}
