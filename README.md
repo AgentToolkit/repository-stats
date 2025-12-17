@@ -126,5 +126,5 @@ GitHub's traffic endpoints are only accessible to repository administrators or m
 
 This site is automatically deployed to GitHub Pages when pushing to the `main` branch.
 
-Live site: https://AgentToolkit.github.io/cuga-stats/
+Live site: https://AgentToolkit.github.io/repository-stats/
 
