@@ -77,6 +77,11 @@ function mergeArchiveData(archiveData) {
 
 function main() {
   const archiveDir = path.join(rootDir, 'traffic_data_archive');
+
+  // if archiveDir doesn't exist create it
+  if (!fs.existsSync(archiveDir)){
+    fs.mkdirSync(archiveDir);
+  }
   const archiveFolders = fs.readdirSync(archiveDir)
     .filter(folder => folder.startsWith('traffic_data_'))
     .sort()
