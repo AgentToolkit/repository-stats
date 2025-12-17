@@ -45,7 +45,7 @@ interface RepositoryStatsPageProps {
 }
 
 const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
-  const TRAFFIC_DATA = useMemo(() => {
+  const trafficData = useMemo(() => {
     const gapBridgeEndDate = '11/26';
     const hardcodedEndIndex = HARDCODED_TRAFFIC_DATA[repository.name].findIndex(d => d.date === gapBridgeEndDate);
     const hardcodedUpToGap = HARDCODED_TRAFFIC_DATA[repository.name].slice(0, hardcodedEndIndex + 1);
@@ -59,7 +59,7 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
     return [...hardcodedUpToGap, ...archiveDataAfterGap];
   }, []);
 
-  const STARS_DATA = useMemo(() => {
+  const starsData = useMemo(() => {
     const hardcodedEndDate = '12/11';
     const hardcodedEndIndex = HARDCODED_STARS_DATA[repository.name].findIndex(d => d.date === hardcodedEndDate);
     const hardcodedUpToEnd = HARDCODED_STARS_DATA[repository.name].slice(0, hardcodedEndIndex + 1);
@@ -73,10 +73,10 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
     return [...hardcodedUpToEnd, ...archiveDataAfterEnd];
   }, []);
 
-  const CURRENT_DATE = useMemo(() => getDateFromTrafficData(TRAFFIC_DATA, true), [TRAFFIC_DATA]);
-  const DATA_START_DATE = useMemo(() => getDateFromTrafficData(TRAFFIC_DATA, false), [TRAFFIC_DATA]);
+  const currentDate = useMemo(() => getDateFromTrafficData(trafficData, true), [trafficData]);
+  const dataStartDate = useMemo(() => getDateFromTrafficData(trafficData, false), [trafficData]);
   
-  const LAST_UPDATED = useMemo(() => {
+  const lastUpdated = useMemo(() => {
     const trafficTimestamp = LAST_UPDATED_TIMESTAMP || null;
     const starsTimestamp = LAST_UPDATED_STARS_TIMESTAMP || null;
     
@@ -87,36 +87,39 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
     }
     if (trafficTimestamp) return new Date(trafficTimestamp);
     if (starsTimestamp) return new Date(starsTimestamp);
-    return CURRENT_DATE;
-  }, [CURRENT_DATE]);
+    return currentDate;
+  }, [currentDate]);
 
   // Calculate days since data collection started
   const daysSinceDataStart = useMemo(() => {
-    const diffTime = CURRENT_DATE.getTime() - DATA_START_DATE.getTime();
+    const diffTime = currentDate.getTime() - dataStartDate.getTime();
     return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-  }, [CURRENT_DATE, DATA_START_DATE]);
+  }, [currentDate, dataStartDate]);
 
   // Calculate totals for cards
-  const totalClones = useMemo(() => TRAFFIC_DATA.reduce((acc, curr) => acc + curr.clones, 0), [TRAFFIC_DATA]);
-  const totalUniqueCloners = useMemo(() => TRAFFIC_DATA.reduce((acc, curr) => acc + curr.uniqueCloners, 0), [TRAFFIC_DATA]);
-  const totalViews = useMemo(() => TRAFFIC_DATA.reduce((acc, curr) => acc + curr.views, 0), [TRAFFIC_DATA]);
-  const totalUniqueVisitors = useMemo(() => TRAFFIC_DATA.reduce((acc, curr) => acc + curr.uniqueVisitors, 0), [TRAFFIC_DATA]);
+  const totalClones = useMemo(() => trafficData.reduce((acc, curr) => acc + curr.clones, 0), [trafficData]);
+  const totalUniqueCloners = useMemo(() => trafficData.reduce((acc, curr) => acc + curr.uniqueCloners, 0), [trafficData]);
+  const totalViews = useMemo(() => trafficData.reduce((acc, curr) => acc + curr.views, 0), [trafficData]);
+  const totalUniqueVisitors = useMemo(() => trafficData.reduce((acc, curr) => acc + curr.uniqueVisitors, 0), [trafficData]);
 
   // Calculate last 7 days metrics
-  const last7Days = useMemo(() => TRAFFIC_DATA.slice(-7), []);
+  const last7Days = useMemo(() => trafficData.slice(-7), []);
   const last7DaysClones = useMemo(() => last7Days.reduce((acc, curr) => acc + curr.clones, 0), [last7Days]);
+  const last7DaysUniqueCloners = useMemo(() => last7Days.reduce((acc, curr) => acc + curr.uniqueCloners, 0), [last7Days]);
+  const last7DaysViews = useMemo(() => last7Days.reduce((acc, curr) => acc + curr.views, 0), [last7Days]);
+  const last7DaysUniqueVisitors = useMemo(() => last7Days.reduce((acc, curr) => acc + curr.uniqueVisitors, 0), [last7Days]);
   const last7DaysStars = useMemo(() => {
-    if (STARS_DATA.length === 0) return 0;
-    const currentStars = STARS_DATA[STARS_DATA.length - 1]?.stars || 237;
-    const sevenDaysAgo = new Date(CURRENT_DATE);
+    if (starsData.length === 0) return 0;
+    const currentStars = starsData[starsData.length - 1]?.stars || 237;
+    const sevenDaysAgo = new Date(currentDate);
     sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
     const sevenDaysAgoMonth = String(sevenDaysAgo.getMonth() + 1).padStart(2, '0');
     const sevenDaysAgoDay = String(sevenDaysAgo.getDate()).padStart(2, '0');
     const sevenDaysAgoDate = `${sevenDaysAgoMonth}/${sevenDaysAgoDay}`;
     
-    const sevenDaysAgoEntry = STARS_DATA.find(d => d.date === sevenDaysAgoDate);
-    if (!sevenDaysAgoEntry && STARS_DATA.length > 0) {
-      const sortedData = [...STARS_DATA].sort((a, b) => {
+    const sevenDaysAgoEntry = starsData.find(d => d.date === sevenDaysAgoDate);
+    if (!sevenDaysAgoEntry && starsData.length > 0) {
+      const sortedData = [...starsData].sort((a, b) => {
         const [aMonth, aDay] = a.date.split('/').map(Number);
         const [bMonth, bDay] = b.date.split('/').map(Number);
         const [targetMonth, targetDay] = sevenDaysAgoDate.split('/').map(Number);
@@ -129,7 +132,7 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
     }
     const sevenDaysAgoStars = sevenDaysAgoEntry?.stars || currentStars;
     return Math.max(0, currentStars - sevenDaysAgoStars);
-  }, [STARS_DATA, CURRENT_DATE]);
+  }, [starsData, currentDate]);
   const last7DaysPyPI = useMemo(() => {
     const sortedPyPI = [...PYPI_DATA[repository.name]].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     return sortedPyPI[0]?.downloads || 0;
@@ -137,24 +140,26 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
 
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <Header stats={{LAST_UPDATED: LAST_UPDATED}}/>
+      <Header lastUpdated={lastUpdated}/>
 
-      <RepositoryMetricsGridSection stats={{
-        last7Days: last7Days,
-        last7DaysClones: last7DaysClones,
-        last7DaysStars: last7DaysStars,
-        last7DaysPyPI: last7DaysPyPI,
-        totalClones: totalClones,
-        totalUniqueCloners: totalUniqueCloners,
-        totalUniqueVisitors: totalUniqueVisitors,
-        totalViews: totalViews,
-        STARS_DATA: STARS_DATA
-      }} 
+      <RepositoryMetricsGridSection
+        last7Days={last7Days}
+        last7DaysClones={last7DaysClones}
+        last7DaysStars={last7DaysStars}
+        last7DaysPyPI={last7DaysPyPI}
+        last7DaysUniqueCloners={last7DaysUniqueCloners}
+        last7DaysUniqueVisitors={last7DaysUniqueVisitors}
+        last7DaysViews={last7DaysViews}
+        totalClones={totalClones}
+        totalUniqueCloners={totalUniqueCloners}
+        totalUniqueVisitors={totalUniqueVisitors}
+        totalViews={totalViews}
+        starsData={starsData}
       /> 
 
       <ChartSelectionSection repository={repository} stats={{
-        STARS_DATA: STARS_DATA,
-        TRAFFIC_DATA: TRAFFIC_DATA,
+        STARS_DATA: starsData,
+        TRAFFIC_DATA: trafficData,
         PYPI_DATA: PYPI_DATA[repository.name],
         daysSinceDataStart: daysSinceDataStart,
       }}

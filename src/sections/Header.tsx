@@ -1,13 +1,16 @@
 import { Activity } from 'lucide-react';
 
-const Header = ({ stats }) => {
+interface HeaderProps {
+  lastUpdated: Date
+}
+const Header = ({ lastUpdated }: HeaderProps) => {
     return (
         <div className="mb-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
             <h1 className="text-3xl font-bold text-[#f0f6fc]">Project Overview</h1>
             <div className="flex items-center gap-2 text-sm text-[#8b949e]">
               <Activity className="w-4 h-4" />
-              <span>Last updated: <span className="text-[#f0f6fc] font-medium">{stats.LAST_UPDATED.toLocaleString(undefined, { 
+              <span>Last updated: <span className="text-[#f0f6fc] font-medium">{lastUpdated.toLocaleString(undefined, { 
                 month: 'short', 
                 day: 'numeric', 
                 year: 'numeric',

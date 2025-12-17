@@ -3,33 +3,54 @@ import RepositoryCloneStatsSection from "./RepositoryCloneStatsSection";
 import RepositoryViewStatsSection from "./RepositoryViewStatsSection";
 import PypiStatsSection from "./PypiStatsSection";
 
-const RepositoryMetricsGridSection = ({ stats }) => (
+interface RepositoryMetricsGridSectionProps {
+  starsData: any;
+  last7DaysStars: number;
+  totalClones: number;
+  last7DaysClones: number;
+  totalUniqueCloners: number;
+  last7DaysUniqueCloners: number;
+  totalViews: number;
+  last7DaysViews: number;
+  totalUniqueVisitors: number;
+  last7DaysUniqueVisitors: number;
+  last7DaysPyPI: number;
+}
+const RepositoryMetricsGridSection = ({ 
+  last7DaysClones, 
+  last7DaysStars, 
+  last7DaysPyPI,
+  last7DaysUniqueCloners, 
+  last7DaysUniqueVisitors,
+  last7DaysViews,
+  totalClones, 
+  totalUniqueCloners, 
+  totalUniqueVisitors,
+  totalViews, 
+  starsData, 
+}: RepositoryMetricsGridSectionProps) => (
   <div className="space-y-6 mb-8">
-    <GithubStarStatsSection stats={{
-      STARS_DATA: stats.STARS_DATA,
-      last7DaysStars: stats.last7DaysStars
-    }}
+    <GithubStarStatsSection
+      starsData={starsData}
+      last7DaysStars={last7DaysStars}
     />
 
-    <RepositoryCloneStatsSection stats={{
-      totalClones: stats.totalClones,
-      last7DaysClones: stats.last7DaysClones,
-      totalUniqueCloners: stats.totalUniqueCloners,
-      last7DaysUniqueCloners: stats.last7DaysUniqueCloners
-    }}
+    <RepositoryCloneStatsSection
+      totalClones={totalClones}
+      last7DaysClones={last7DaysClones}
+      totalUniqueCloners={totalUniqueCloners}
+      last7DaysUniqueCloners={last7DaysUniqueCloners}
     />
 
-    <RepositoryViewStatsSection stats={{
-      totalViews: stats.totalViews,
-      last7DaysViews: stats.last7DaysViews,
-      totalUniqueVisitors: stats.totalUniqueVisitors,
-      last7DaysUniqueVisitors: stats.last7DaysUniqueVisitors
-    }}
+    <RepositoryViewStatsSection 
+      totalViews={totalViews}
+      last7DaysViews={last7DaysViews}
+      totalUniqueVisitors={totalUniqueVisitors}
+      last7DaysUniqueVisitors={last7DaysUniqueVisitors}
     />
 
-    <PypiStatsSection stats={{
-      last7DaysPyPI: stats.last7DaysPyPI
-    }}
+    <PypiStatsSection 
+      last7DaysPyPI={last7DaysPyPI}
     />
   </div>
 );

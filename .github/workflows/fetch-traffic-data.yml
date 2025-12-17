@@ -1,0 +1,66 @@
+name: Fetch Traffic Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-traffic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Download traffic data
+        env:
+          GITHUB_TOKEN: ${{ secrets.TRAFFIC_DATA_TOKEN }}
+        run: |
+          python download_traffic.py --repo cuga-project/cuga-agent --output-dir traffic_data_latest
+
+      - name: Create timestamped backup
+        run: |
+          TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+          mkdir -p traffic_data_archive
+          cp -r traffic_data_latest "traffic_data_archive/traffic_data_${TIMESTAMP}"
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add traffic_data_latest/ traffic_data_archive/
+          
+          # Retry logic to handle concurrent pushes
+          for i in {1..3}; do
+            git pull --rebase origin main || true
+            
+            if ! git diff --staged --quiet; then
+              git commit -m "chore: fetch weekly traffic data $(date +%Y-%m-%d)"
+            fi
+            
+            if git push origin main; then
+              echo "Push successful on attempt $i"
+              break
+            else
+              if [ $i -eq 3 ]; then
+                echo "Push failed after 3 attempts"
+                exit 1
+              fi
+              echo "Push failed on attempt $i, retrying..."
+              sleep $((i * 2))
+            fi
+          done

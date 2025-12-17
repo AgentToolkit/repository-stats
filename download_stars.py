@@ -119,7 +119,7 @@ def main():
     parser.add_argument(
         "--repo",
         required=True,
-        help="Repository in format 'owner/repo' (e.g., 'cuga-project/cuga-agent')",
+        help="Repository in format 'owner/repo' (e.g., 'AgentToolkit/agent-lifecycle-toolkit')",
     )
     parser.add_argument(
         "--output-dir",

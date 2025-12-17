@@ -1,6 +1,16 @@
 import { ArrowUpRight, AlertCircle } from 'lucide-react';
 
-const StatCard = ({ title, value, subtext, icon: Icon, trend, alert }) => (
+
+interface StatCardProps {
+  title: string;
+  value: string;
+  subtext: string;
+  icon: any;
+  trend: string;
+  alert?: boolean;
+}
+
+const StatCard = ({ title, value, subtext, icon: Icon, trend, alert }: StatCardProps) => (
   <div className="bg-[#161b22] border border-[#30363d] rounded-lg p-6 flex flex-col justify-between hover:border-[#58a6ff] transition-colors duration-200">
     <div className="flex justify-between items-start mb-4">
       <div>
