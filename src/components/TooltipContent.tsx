@@ -1,4 +1,9 @@
-const TooltipContent = ({ active, payload, label }) => {
+interface TooltipContentProps {
+  active: any;
+  payload: any[];
+  label: any;
+}
+const TooltipContent = ({ active, payload, label }: TooltipContentProps) => {
   if (active && payload && payload.length) {
     return (
       <div className="bg-[#161b22] border border-[#30363d] p-3 rounded shadow-xl text-xs z-50">
