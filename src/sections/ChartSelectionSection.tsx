@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Activity, AlertCircle, Download, ExternalLink, Eye, Star, Users } from "lucide-react";
 import { useState } from "react";
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";

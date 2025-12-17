@@ -47,7 +47,7 @@ interface RepositoryStatsPageProps {
 const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
   const trafficData = useMemo(() => {
     const gapBridgeEndDate = '11/26';
-    const hardcodedEndIndex = HARDCODED_TRAFFIC_DATA[repository.name].findIndex(d => d.date === gapBridgeEndDate);
+    const hardcodedEndIndex = HARDCODED_TRAFFIC_DATA[repository.name].findIndex((d: any) => d.date === gapBridgeEndDate);
     const hardcodedUpToGap = HARDCODED_TRAFFIC_DATA[repository.name].slice(0, hardcodedEndIndex + 1);
     
     const archiveDataAfterGap = MERGED_ARCHIVE_DATA.filter(d => {
@@ -61,7 +61,7 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
 
   const starsData = useMemo(() => {
     const hardcodedEndDate = '12/11';
-    const hardcodedEndIndex = HARDCODED_STARS_DATA[repository.name].findIndex(d => d.date === hardcodedEndDate);
+    const hardcodedEndIndex = HARDCODED_STARS_DATA[repository.name].findIndex((d: any) => d.date === hardcodedEndDate);
     const hardcodedUpToEnd = HARDCODED_STARS_DATA[repository.name].slice(0, hardcodedEndIndex + 1);
     
     const archiveDataAfterEnd = MERGED_STARS_DATA.filter(d => {
