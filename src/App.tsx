@@ -3,25 +3,7 @@ import Footer from './sections/Footer';
 import RepositoryStatsPage from './pages/RepositoryStatsPage';
 import { useState } from 'react';
 import Repository from './types/repository';
-
-const REPOSITORIES: Repository[] = [
-  {
-    "name": "agent-lifecycle-toolkit",
-    "shortname": "ALTK",
-    "pypi_package_name": "agent-lifecycle-toolkit",
-    "github_organization": "AgentToolkit",
-    "github_repository_url": "",
-    "version": "0.9.0"
-  }, 
-  {
-    "name": "agent-analytics",
-    "shortname": "Agent Analytics",
-    "pypi_package_name": "",
-    "github_organization": "AgentToolkit",
-    "github_repository_url": "",
-    "version": "0.6.1"
-  }
-].sort();
+import { REPOSITORIES } from './data/repositories';
 
 const App = () => {
   const [activeRepository, setActiveRepository] = useState(REPOSITORIES[0]);
