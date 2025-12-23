@@ -156,12 +156,12 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
         starsData={starsData}
       /> 
 
-      <ChartSelectionSection repository={repository} stats={{
-        STARS_DATA: starsData,
-        TRAFFIC_DATA: trafficData,
-        PYPI_DATA: PYPI_DATA[repository.name],
-        daysSinceDataStart: daysSinceDataStart,
-      }}
+      <ChartSelectionSection 
+        repository={repository}
+        starsData={starsData}
+        trafficData={trafficData}
+        pypiData={PYPI_DATA[repository.name]}
+        daysSinceDataStart={daysSinceDataStart}
       />
     </main>
   );

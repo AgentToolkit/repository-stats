@@ -1,5 +1,8 @@
-// Hardcoded Star History Data (before archive data starts)
-const HARDCODED_STARS_DATA: any = {
+import { PypiData } from "../types/pypi-data";
+import { StarsData } from "../types/stars-data";
+import { TrafficData } from "../types/traffic-data";
+
+const HARDCODED_STARS_DATA: {[key: string]: StarsData[]} = {
   "agent-lifecycle-toolkit": [
     { date: '09/10', stars: 0 },
     { date: '09/11', stars: 0 },
@@ -23,10 +26,13 @@ const HARDCODED_STARS_DATA: any = {
     { date: '12/16', stars: 0 },
     { date: '12/17', stars: 90 },
   ],
+  "agent-analytics": [
+    { date: '12/23', stars: 10 }
+  ]
 };
 
 // --- Hardcoded Data (before Gap Bridge) ---
-const HARDCODED_TRAFFIC_DATA: any = {
+const HARDCODED_TRAFFIC_DATA: {[key: string]: TrafficData[]} = {
   "agent-lifecycle-toolkit": [
     { date: '10/30', clones: 0, uniqueCloners: 0, views: 0, uniqueVisitors: 0 },
     { date: '10/31', clones: 0, uniqueCloners: 0, views: 0, uniqueVisitors: 0 }, 
@@ -61,10 +67,12 @@ const HARDCODED_TRAFFIC_DATA: any = {
     { date: '11/25', clones: 0, uniqueCloners: 0, views: 0, uniqueVisitors: 0 },
     { date: '11/26', clones: 0, uniqueCloners: 0, views: 0, uniqueVisitors: 0 },
   ],
+  "agent-analytics": [
+    { date: '12/23', clones: 0, uniqueCloners: 0, views: 0, uniqueVisitors: 0}
+  ]
 };
 
-// PyPI Downloads by Date - Aggregated from version-specific download data
-const PYPI_DATA: any = {
+const PYPI_DATA: {[key: string]: PypiData[]} = {
   "agent-lifecycle-toolkit": [
     { date: '2025-09-07', downloads: 0 },
     { date: '2025-09-14', downloads: 0 },
