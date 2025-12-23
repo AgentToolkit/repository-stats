@@ -1,7 +1,8 @@
 export default interface Repository {
-  name: string,
-  organization: string,
-  shortname: string,
-  github_repository_url: string,
-  version: string
+  name: string;
+  shortname?: string;
+  pypi_package_name: string;
+  github_organization: string;
+  github_repository_url: string;
+  version?: string;
 }

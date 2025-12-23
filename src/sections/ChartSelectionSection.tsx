@@ -192,7 +192,7 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
                 <p className="text-xs text-[#8b949e] mb-2">Cumulative growth (star-history.com style)</p>
                 
                 <a 
-                  href={`https://www.star-history.com/#${repository.organization}/${repository.name}&type=date&legend=top-left`} 
+                  href={`https://www.star-history.com/#${repository.github_organization}/${repository.name}&type=date&legend=top-left`} 
                   target="_blank" 
                   rel="noreferrer"
                   className="flex items-center text-xs text-[#58a6ff] hover:underline"
@@ -253,7 +253,7 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
                 </p>
               </div>
               <a 
-                href={`https://clickpy.clickhouse.com/dashboard/${repository.name}`} 
+                href={`https://clickpy.clickhouse.com/dashboard/${repository.pypi_package_name}`} 
                 target="_blank" 
                 rel="noreferrer"
                 className="flex items-center text-xs text-[#58a6ff] hover:underline"
@@ -299,9 +299,13 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
               <code className="bg-[#30363d] text-[#f0f6fc] px-4 py-2 rounded-md text-sm font-mono mt-2">
                 pip install {repository.name}
               </code>
-              <p className="text-xs text-[#8b949e] mt-4">
-                Latest version: <span className="text-[#f0f6fc]">{repository.version}</span>
-              </p>
+              {
+                repository.version != "" && ( 
+                  <p className="text-xs text-[#8b949e] mt-4">
+                    Latest version: <span className="text-[#f0f6fc]">{repository.version}</span>
+                  </p>
+                )
+              }
           </div>
         </div>
       )}
