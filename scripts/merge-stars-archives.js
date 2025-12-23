@@ -107,7 +107,7 @@ export const MERGED_STARS_DATA = [];
     }
   }
 
-  const outputPath = path.join(rootDir, 'src', 'merged-stars-data.ts');
+  const outputPath = path.join(rootDir, 'src', 'data', 'merged-stars-data.ts');
   const output = `// Auto-generated merged stars data
 // Generated from: ${archiveFolders.join(', ')}
 // Last updated: ${new Date().toISOString()}

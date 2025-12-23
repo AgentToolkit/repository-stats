@@ -137,7 +137,7 @@ function main() {
     }
   }
 
-  const outputPath = path.join(rootDir, 'src', 'merged-archive-data.ts');
+  const outputPath = path.join(rootDir, 'src', 'data', 'merged-archive-data.ts');
   const output = `// Auto-generated merged archive data
 // Generated from: ${archiveFolders.join(', ')}
 // Last updated: ${new Date().toISOString()}
