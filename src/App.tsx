@@ -16,7 +16,7 @@ const REPOSITORIES: Repository[] = [
   {
     "name": "agent-analytics",
     "shortname": "Agent Analytics",
-    "pypi_package_name": "agent-analytics",
+    "pypi_package_name": "",
     "github_organization": "AgentToolkit",
     "github_repository_url": "",
     "version": "0.6.1"

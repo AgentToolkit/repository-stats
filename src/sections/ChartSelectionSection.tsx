@@ -15,10 +15,16 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
 
   const [activeTab, setActiveTab] = useState('stars');
 
+  const tabs = ['stars', 'traffic']
+  // only include the package tab if the repository has a pypi package
+  if (repository.pypi_package_name != "") {
+    tabs.push('package')
+  }
+
   return (
     <div>
       <div className="flex border-b border-[#30363d] mb-8 overflow-x-auto">
-        {['stars', 'traffic', 'package'].map((tab) => (
+        {tabs.map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
@@ -239,7 +245,7 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
         </div>
       )}
 
-      {activeTab === 'package' && (
+      {(activeTab === 'package' && repository.pypi_package_name)  && (
         <div className="animate-in fade-in duration-500 grid gap-6">
           <div className="bg-[#161b22] border border-[#30363d] rounded-xl p-6">
             <div className="flex justify-between items-start mb-6">
