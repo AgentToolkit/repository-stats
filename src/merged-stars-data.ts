@@ -1,6 +1,6 @@
 // Auto-generated merged stars data
-// Generated from: stars_data_20251224_012659, stars_data_20251223_012804, stars_data_20251222_014141, stars_data_20251221_014207, stars_data_20251220_012350, stars_data_20251219_012801, stars_data_20251218_012437
-// Last updated: 2025-12-24T02:02:13.878Z
+// Generated from: stars_data_20251225_012815, stars_data_20251224_012659, stars_data_20251223_012804, stars_data_20251222_014141, stars_data_20251221_014207, stars_data_20251220_012350, stars_data_20251219_012801, stars_data_20251218_012437
+// Last updated: 2025-12-25T01:28:30.179Z
 
 export const MERGED_STARS_DATA = [
   {
@@ -30,6 +30,10 @@ export const MERGED_STARS_DATA = [
   {
     "date": "12/24",
     "stars": 94
+  },
+  {
+    "date": "12/25",
+    "stars": 94
   }
 ];
-export const LAST_UPDATED_STARS_TIMESTAMP = '2025-12-24T01:26:59.000Z';
+export const LAST_UPDATED_STARS_TIMESTAMP = '2025-12-25T01:28:15.000Z';
