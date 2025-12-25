@@ -1,6 +1,6 @@
 // Auto-generated merged archive data
-// Generated from: traffic_data_20251224_012732, traffic_data_20251223_012826, traffic_data_20251222_014214, traffic_data_20251221_014240, traffic_data_20251220_012405, traffic_data_20251219_012816, traffic_data_20251218_012504
-// Last updated: 2025-12-25T01:28:29.993Z
+// Generated from: traffic_data_20251225_012837, traffic_data_20251224_012732, traffic_data_20251223_012826, traffic_data_20251222_014214, traffic_data_20251221_014240, traffic_data_20251220_012405, traffic_data_20251219_012816, traffic_data_20251218_012504
+// Last updated: 2025-12-25T01:29:08.782Z
 
 export const MERGED_ARCHIVE_DATA = [
   {
@@ -56,7 +56,7 @@ export const MERGED_ARCHIVE_DATA = [
     "date": "12/11",
     "clones": 150,
     "uniqueCloners": 37,
-    "views": 359,
+    "views": 358,
     "uniqueVisitors": 31
   },
   {
@@ -142,6 +142,20 @@ export const MERGED_ARCHIVE_DATA = [
     "uniqueCloners": 16,
     "views": 171,
     "uniqueVisitors": 38
+  },
+  {
+    "date": "12/24",
+    "clones": 93,
+    "uniqueCloners": 19,
+    "views": 139,
+    "uniqueVisitors": 18
+  },
+  {
+    "date": "12/25",
+    "clones": 0,
+    "uniqueCloners": 0,
+    "views": 1,
+    "uniqueVisitors": 1
   }
 ];
-export const LAST_UPDATED_TIMESTAMP = '2025-12-24T01:27:32.000Z';
+export const LAST_UPDATED_TIMESTAMP = '2025-12-25T01:28:37.000Z';
