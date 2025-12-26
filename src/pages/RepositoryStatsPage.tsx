@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import { MERGED_ARCHIVE_DATA, LAST_UPDATED_TIMESTAMP } from '../data/merged-archive-data';
-import { MERGED_STARS_DATA, LAST_UPDATED_STARS_TIMESTAMP } from '../data/merged-stars-data';
+import { MERGED_ARCHIVE_DATA, LAST_UPDATED_TIMESTAMP } from '../data/merged-gh-traffic-archives-data';
+import { MERGED_STARS_DATA, LAST_UPDATED_STARS_TIMESTAMP } from '../data/merged-gh-stars-archives-data';
 
 import Header from '../sections/Header';
 import RepositoryMetricsGridSection from '../sections/RepositoryMetricsGridSection';

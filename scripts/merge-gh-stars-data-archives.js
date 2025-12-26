@@ -40,12 +40,14 @@ function main() {
   
   if (!fs.existsSync(archiveDir)) {
     console.log('⚠️  No stars_data_archive directory found. Creating empty merged data.');
-    const outputPath = path.join(rootDir, 'src', 'merged-stars-data.ts');
+    const outputPath = path.join(rootDir, 'src', 'data', 'merged-stars-data.ts');
+    const lastUpdatedTimestamp = new Date().toISOString();
     const output = `// Auto-generated merged stars data
 // No archive data found yet
-// Last updated: ${new Date().toISOString()}
+// Last updated: ${lastUpdatedTimestamp}
 
 export const MERGED_STARS_DATA = [];
+export const LAST_UPDATED_STARS_TIMESTAMP = '${lastUpdatedTimestamp}';
 `;
 
     fs.writeFileSync(outputPath, output, 'utf-8');
