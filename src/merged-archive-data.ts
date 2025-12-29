@@ -1,6 +1,6 @@
 // Auto-generated merged archive data
-// Generated from: traffic_data_20251228_014716, traffic_data_20251227_012646, traffic_data_20251226_012829, traffic_data_20251225_012837, traffic_data_20251224_012732, traffic_data_20251223_012826, traffic_data_20251222_014214, traffic_data_20251221_014240, traffic_data_20251220_012405, traffic_data_20251219_012816, traffic_data_20251218_012504
-// Last updated: 2025-12-29T01:45:36.067Z
+// Generated from: traffic_data_20251229_014550, traffic_data_20251228_014716, traffic_data_20251227_012646, traffic_data_20251226_012829, traffic_data_20251225_012837, traffic_data_20251224_012732, traffic_data_20251223_012826, traffic_data_20251222_014214, traffic_data_20251221_014240, traffic_data_20251220_012405, traffic_data_20251219_012816, traffic_data_20251218_012504
+// Last updated: 2025-12-29T01:46:11.795Z
 
 export const MERGED_ARCHIVE_DATA = [
   {
@@ -82,9 +82,9 @@ export const MERGED_ARCHIVE_DATA = [
   },
   {
     "date": "12/15",
-    "clones": 62,
-    "uniqueCloners": 18,
-    "views": 100,
+    "clones": 61,
+    "uniqueCloners": 17,
+    "views": 99,
     "uniqueVisitors": 30
   },
   {
@@ -170,6 +170,13 @@ export const MERGED_ARCHIVE_DATA = [
     "uniqueCloners": 1,
     "views": 13,
     "uniqueVisitors": 6
+  },
+  {
+    "date": "12/28",
+    "clones": 3,
+    "uniqueCloners": 3,
+    "views": 58,
+    "uniqueVisitors": 11
   }
 ];
-export const LAST_UPDATED_TIMESTAMP = '2025-12-28T01:47:16.000Z';
+export const LAST_UPDATED_TIMESTAMP = '2025-12-29T01:45:50.000Z';
