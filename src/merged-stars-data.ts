@@ -1,6 +1,6 @@
 // Auto-generated merged stars data
-// Generated from: stars_data_20251230_012839, stars_data_20251229_014518, stars_data_20251228_014659, stars_data_20251227_012617, stars_data_20251226_012807, stars_data_20251225_012815, stars_data_20251224_012659, stars_data_20251223_012804, stars_data_20251222_014141, stars_data_20251221_014207, stars_data_20251220_012350, stars_data_20251219_012801, stars_data_20251218_012437
-// Last updated: 2025-12-30T02:04:56.451Z
+// Generated from: stars_data_20251231_013847, stars_data_20251230_012839, stars_data_20251229_014518, stars_data_20251228_014659, stars_data_20251227_012617, stars_data_20251226_012807, stars_data_20251225_012815, stars_data_20251224_012659, stars_data_20251223_012804, stars_data_20251222_014141, stars_data_20251221_014207, stars_data_20251220_012350, stars_data_20251219_012801, stars_data_20251218_012437
+// Last updated: 2025-12-31T01:39:05.827Z
 
 export const MERGED_STARS_DATA = [
   {
@@ -54,6 +54,10 @@ export const MERGED_STARS_DATA = [
   {
     "date": "12/30",
     "stars": 100
+  },
+  {
+    "date": "12/31",
+    "stars": 100
   }
 ];
-export const LAST_UPDATED_STARS_TIMESTAMP = '2025-12-30T01:28:39.000Z';
+export const LAST_UPDATED_STARS_TIMESTAMP = '2025-12-31T01:38:47.000Z';
