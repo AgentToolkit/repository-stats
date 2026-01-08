@@ -57,7 +57,7 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
     });
 
     return [...hardcodedUpToGap, ...archiveDataAfterGap];
-  }, []);
+  }, [repository]);
 
   const starsData = useMemo(() => {
     const hardcodedEndDate = '12/11';
@@ -71,7 +71,7 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
     });
 
     return [...hardcodedUpToEnd, ...archiveDataAfterEnd];
-  }, []);
+  }, [repository]);
 
   const currentDate = useMemo(() => getDateFromTrafficData(trafficData, true), [trafficData]);
   const dataStartDate = useMemo(() => getDateFromTrafficData(trafficData, false), [trafficData]);
