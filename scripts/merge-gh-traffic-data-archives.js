@@ -76,14 +76,14 @@ function mergeArchiveData(archiveData) {
 }
 
 function main() {
-  const archiveDir = path.join(rootDir, 'traffic_data_archive');
+  const archiveDir = path.join(rootDir, 'gh_traffic_data_archive');
 
   // if archiveDir doesn't exist create it
   if (!fs.existsSync(archiveDir)){
     fs.mkdirSync(archiveDir);
   }
   const archiveFolders = fs.readdirSync(archiveDir)
-    .filter(folder => folder.startsWith('traffic_data_'))
+    .filter(folder => folder.startsWith('gh_traffic_data_'))
     .sort()
     .reverse();
 
@@ -119,7 +119,7 @@ function main() {
 
   const latestTimestamp = archiveGroups.length > 0 ? archiveGroups[0].timestamp : new Date().toISOString();
   
-  const latestSummaryPath = path.join(rootDir, 'traffic_data_latest', 'summary.md');
+  const latestSummaryPath = path.join(rootDir, 'gh_traffic_data_latest', 'summary.md');
   let retrievedTimestamp = latestTimestamp;
   if (fs.existsSync(latestSummaryPath)) {
     try {
