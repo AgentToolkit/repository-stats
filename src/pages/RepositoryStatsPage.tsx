@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import { MERGED_ARCHIVE_DATA, LAST_UPDATED_TIMESTAMP } from '../data/merged-gh-traffic-archives-data';
-import { MERGED_STARS_DATA, LAST_UPDATED_STARS_TIMESTAMP } from '../data/merged-gh-stars-archives-data';
+import { MERGED_ARCHIVE_DATA as MERGED_TRAFFIC_DATA, LAST_UPDATED_TIMESTAMP } from '../data/merged-gh-traffic-data';
+import { MERGED_STARS_DATA, LAST_UPDATED_STARS_TIMESTAMP } from '../data/merged-gh-stars-data';
 
 import Header from '../sections/Header';
 import RepositoryMetricsGridSection from '../sections/RepositoryMetricsGridSection';
@@ -50,7 +50,7 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
     const hardcodedEndIndex = HARDCODED_TRAFFIC_DATA[repository.name].findIndex((d: any) => d.date === gapBridgeEndDate);
     const hardcodedUpToGap = HARDCODED_TRAFFIC_DATA[repository.name].slice(0, hardcodedEndIndex + 1);
     
-    const archiveDataAfterGap = MERGED_ARCHIVE_DATA.filter(d => {
+    const archiveDataAfterGap = MERGED_TRAFFIC_DATA[repository.name].filter(d => {
       const [month, day] = d.date.split('/').map(Number);
       const [gapMonth, gapDay] = gapBridgeEndDate.split('/').map(Number);
       return month > gapMonth || (month === gapMonth && day > gapDay);
@@ -64,7 +64,7 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
     const hardcodedEndIndex = HARDCODED_STARS_DATA[repository.name].findIndex((d: any) => d.date === hardcodedEndDate);
     const hardcodedUpToEnd = HARDCODED_STARS_DATA[repository.name].slice(0, hardcodedEndIndex + 1);
     
-    const archiveDataAfterEnd = MERGED_STARS_DATA.filter(d => {
+    const archiveDataAfterEnd = MERGED_STARS_DATA[repository.name].filter(d => {
       const [month, day] = d.date.split('/').map(Number);
       const [endMonth, endDay] = hardcodedEndDate.split('/').map(Number);
       return month > endMonth || (month === endMonth && day > endDay);

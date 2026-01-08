@@ -31,6 +31,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/download_gh_stars_data.py --repo AgentToolkit/agent-lifecycle-toolkit --output-dir gh_stars_data_latest
+          python scripts/download_gh_stars_data.py --repo AgentToolkit/agent-analytics --output-dir gh_stars_data_latest
+          python scripts/download_gh_stars_data.py --repo AgentToolkit/kaizen --output-dir gh_stars_data_latest
+          python scripts/download_gh_stars_data.py --repo AgentToolkit/toolguard --output-dir gh_stars_data_latest
 
       - name: Create timestamped backup
         run: |

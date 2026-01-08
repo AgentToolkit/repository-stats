@@ -44,7 +44,7 @@ def download_stars_data(owner: str, repo: str, output_dir: Path, token: str) -> 
         "X-GitHub-Api-Version": "2022-11-28",
     }
 
-    output_file = output_dir / f"{repo.replace("-", "_")}_stars.json"
+    output_file = output_dir / f"{repo}_stars.json"
     print(f"📥 Downloading stars data...")
 
     try:
@@ -92,7 +92,7 @@ def download_stars_data(owner: str, repo: str, output_dir: Path, token: str) -> 
 
 def create_summary(data: dict, output_dir: Path) -> None:
     """Create a summary markdown file with stars statistics."""
-    repo_name = cast(str, data.get("repository")).replace("-", "_")
+    repo_name = cast(str, data.get("repository"))
 
     summary_file = output_dir / f"{repo_name}_summary.md"
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")

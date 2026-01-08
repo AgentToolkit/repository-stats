@@ -92,7 +92,7 @@ def download_traffic_data(owner: str, repo: str, output_dir: Path, token: str) -
     results = {}
 
     for key, endpoint in endpoints.items():
-        output_file = output_dir / f"{repo.replace("-", "_")}_traffic_{key}.json"
+        output_file = output_dir / f"{repo}_traffic_{key}.json"
         print(f"📥 Downloading {key}...")
 
         try:
@@ -134,7 +134,7 @@ def download_traffic_data(owner: str, repo: str, output_dir: Path, token: str) -
 
 def create_summary(data: dict, output_dir: Path) -> None:
     """Create a summary markdown file with traffic statistics."""
-    repo_name = cast(str, data.get("repository")).replace("-", "_")
+    repo_name = cast(str, data.get("repository"))
 
     summary_file = output_dir / f"{repo_name}_summary.md"
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")

@@ -1,18 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { findMatchingFiles } from './utils.js';
+import { findMatchingFiles, getFilenameFromPath, parseTimestamp } from './utils.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
-
-function parseTimestamp(timestamp) {
-  const dt = new Date(timestamp);
-  const month = String(dt.getMonth() + 1).padStart(2, '0');
-  const day = String(dt.getDate()).padStart(2, '0');
-  return { dateStr: `${month}/${day}`, datetime: dt };
-}
 
 function mergeStarsData(archiveGroups) {
   const dataByRepo = {};
@@ -75,16 +68,15 @@ export const LAST_UPDATED_STARS_TIMESTAMP = '${lastUpdatedTimestamp}';
   const archiveGroups = {};
 
   for (const folder of archiveFolders) {
-    const folderPath = path.join(archiveDir, folder);
-
     // find all the stars.json files
-    const starsPaths = await findMatchingFiles("gh_stars_data*/*_stars.json")
+    const folderPath = path.join(archiveDir, folder);
+    const starsPaths = await findMatchingFiles(`${folderPath}/*_stars.json`);
 
     for (let starsPath of starsPaths) {
       if (fs.existsSync(starsPath)) {
         try {
           const stars = JSON.parse(fs.readFileSync(starsPath, 'utf-8'));
-          const timestampStr = folder.replace('stars_data_', '');
+          const timestampStr = folder.replace('gh_stars_data_', '');
           const year = timestampStr.substring(0, 4);
           const month = timestampStr.substring(4, 6);
           const day = timestampStr.substring(6, 8);
@@ -93,7 +85,7 @@ export const LAST_UPDATED_STARS_TIMESTAMP = '${lastUpdatedTimestamp}';
           const second = timestampStr.substring(13, 15);
           const timestamp = `${year}-${month}-${day}T${hour}:${minute}:${second}Z`;
 
-          const archiveGroupName = starsPath.split("/")[1].split("_stars.json")[0]
+          const archiveGroupName = getFilenameFromPath(starsPath, false).split("_stars")[0];
           if (!(archiveGroupName in archiveGroups)) {
             archiveGroups[archiveGroupName] = [];
           }
@@ -113,9 +105,11 @@ export const LAST_UPDATED_STARS_TIMESTAMP = '${lastUpdatedTimestamp}';
 
   const merged = mergeStarsData(archiveGroups);
 
-  const latestTimestamp = archiveGroups.length > 0 ? archiveGroups[0].timestamp : new Date().toISOString();
+  // fix this
+  const arbitraryKey = Object.keys(archiveGroups)[0];
+  const latestTimestamp = archiveGroups[arbitraryKey].length > 0 ? archiveGroups[arbitraryKey][0].timestamp : new Date().toISOString();
   
-  const latestSummaryPaths = await findMatchingFiles("gh_stars_data*/*_summary.md");
+  const latestSummaryPaths = await findMatchingFiles(`${path.join(rootDir, "gh_stars_data_latest")}/*_summary.md`);
 
   let retrievedTimestamp = latestTimestamp;
   for (let latestSummaryPath of latestSummaryPaths) {
@@ -137,7 +131,7 @@ export const LAST_UPDATED_STARS_TIMESTAMP = '${lastUpdatedTimestamp}';
   }
   
 
-  const outputPath = path.join(rootDir, 'src', 'data', 'merged-stars-data.ts');
+  const outputPath = path.join(rootDir, 'src', 'data', 'merged-gh-stars-data.ts');
   const output = `// Auto-generated merged stars data
 // Generated from: ${archiveFolders.join(', ')}
 // Last updated: ${new Date().toISOString()}

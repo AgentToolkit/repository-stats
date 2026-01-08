@@ -16,5 +16,21 @@ export const REPOSITORIES: Repository[] = [
     "github_organization": "AgentToolkit",
     "github_repository_url": "",
     "version": "0.6.1"
+  },
+  {
+    "name": "kaizen",
+    "shortname": "Kaizen",
+    "pypi_package_name": "",
+    "github_organization": "AgentToolkit",
+    "github_repository_url": "",
+    "version": "0.0.0"
+  },
+  {
+    "name": "toolguard",
+    "shortname": "ToolGuard",
+    "pypi_package_name": "",
+    "github_organization": "AgentToolkit",
+    "github_repository_url": "",
+    "version": "0.0.0"
   }
 ].sort();
