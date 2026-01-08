@@ -1,8 +1,10 @@
 // Auto-generated merged stars data
 // Generated from: gh_stars_data_20260108_171837, gh_stars_data_20260108_171431
-// Last updated: 2026-01-08T22:18:48.234Z
+// Last updated: 2026-01-08T23:42:33.520Z
 
-export const MERGED_STARS_DATA = {
+import { StarsData } from "../types/stars-data";
+
+export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
   "toolguard": [
     {
       "date": "01/08",

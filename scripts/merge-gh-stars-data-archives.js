@@ -136,7 +136,9 @@ export const LAST_UPDATED_STARS_TIMESTAMP = '${lastUpdatedTimestamp}';
 // Generated from: ${archiveFolders.join(', ')}
 // Last updated: ${new Date().toISOString()}
 
-export const MERGED_STARS_DATA = ${JSON.stringify(merged, null, 2)};
+import { StarsData } from "../types/stars-data";
+
+export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = ${JSON.stringify(merged, null, 2)};
 export const LAST_UPDATED_STARS_TIMESTAMP = '${retrievedTimestamp}';
 `;
 

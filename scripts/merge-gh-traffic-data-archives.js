@@ -181,7 +181,9 @@ async function main() {
 // Generated from: ${archiveFolders.join(', ')}
 // Last updated: ${new Date().toISOString()}
 
-export const MERGED_ARCHIVE_DATA = ${JSON.stringify(merged, null, 2)};
+import { TrafficData } from "../types/traffic-data";
+
+export const MERGED_ARCHIVE_DATA: {[key: string]: TrafficData[]} = ${JSON.stringify(merged, null, 2)};
 export const LAST_UPDATED_TIMESTAMP = '${retrievedTimestamp}';
 `;
 
