@@ -15,7 +15,7 @@ const GithubStarStatsSection = ({ starsData, last7DaysStars }: GithubStarStatsSe
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       <StatCard 
       title="Total Stars" 
-      value={starsData.length > 0 ? starsData[starsData.length - 1]?.stars?.toLocaleString() || "237" : "237"} 
+      value={starsData.length > 0 ? starsData[starsData.length - 1]?.stars?.toLocaleString() || "0" : "0"} 
       subtext={`+${last7DaysStars.toLocaleString()} last 7 days`}
       trend="up"
       icon={Star} 

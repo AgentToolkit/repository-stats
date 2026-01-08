@@ -12,7 +12,7 @@ import Repository from '../types/repository';
  * Agent Toolkit Analytics Dashboard
  * * Data Sources:
  * 1. GitHub Traffic: Manually transcribed from provided screenshots (Oct 30 - Dec 09).
- * 2. Stars: Based on uploaded CSV 'star-history-20251211.csv' + current count (237).
+ * 2. Stars: Based on uploaded CSV 'star-history-20251211.csv'.
  * 3. PyPI: Version-specific download data aggregated by date from provided CSV.
  */
 
@@ -103,14 +103,14 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
   const totalUniqueVisitors = useMemo(() => trafficData.reduce((acc, curr) => acc + curr.uniqueVisitors, 0), [trafficData]);
 
   // Calculate last 7 days metrics
-  const last7Days = useMemo(() => trafficData.slice(-7), []);
+  const last7Days = useMemo(() => trafficData.slice(-7), [repository]);
   const last7DaysClones = useMemo(() => last7Days.reduce((acc, curr) => acc + curr.clones, 0), [last7Days]);
   const last7DaysUniqueCloners = useMemo(() => last7Days.reduce((acc, curr) => acc + curr.uniqueCloners, 0), [last7Days]);
   const last7DaysViews = useMemo(() => last7Days.reduce((acc, curr) => acc + curr.views, 0), [last7Days]);
   const last7DaysUniqueVisitors = useMemo(() => last7Days.reduce((acc, curr) => acc + curr.uniqueVisitors, 0), [last7Days]);
   const last7DaysStars = useMemo(() => {
     if (starsData.length === 0) return 0;
-    const currentStars = starsData[starsData.length - 1]?.stars || 237;
+    const currentStars = starsData[starsData.length - 1]?.stars || 0;
     const sevenDaysAgo = new Date(currentDate);
     sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
     const sevenDaysAgoMonth = String(sevenDaysAgo.getMonth() + 1).padStart(2, '0');
@@ -136,7 +136,7 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
   const last7DaysPyPI = useMemo(() => {
     const sortedPyPI = [...PYPI_DATA[repository.name]].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     return sortedPyPI[0]?.downloads || 0;
-  }, []);
+  }, [repository]);
 
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

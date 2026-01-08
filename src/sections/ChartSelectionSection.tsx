@@ -213,7 +213,7 @@ const ChartSelectionSection = ({ repository, starsData, trafficData, pypiData, d
                 </a>
               </div>
               <div className="text-left md:text-right">
-                <div className="text-2xl font-bold text-[#f0f6fc]">{starsData.length > 0 ? starsData[starsData.length - 1]?.stars || 237 : 237}</div>
+                <div className="text-2xl font-bold text-[#f0f6fc]">{starsData.length > 0 ? starsData[starsData.length - 1]?.stars || 0 : 0}</div>
                 <div className="text-xs text-[#8b949e]">Current Stars</div>
               </div>
             </div>
