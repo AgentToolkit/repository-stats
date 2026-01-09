@@ -5,20 +5,32 @@ import { Area, AreaChart, Bar, BarChart, CartesianGrid, Line, LineChart, Respons
 
 import TooltipContent from "../components/TooltipContent";
 import Repository from "../types/repository";
+import { StarsData } from "../types/stars-data";
+import { TrafficData } from "../types/traffic-data";
+import { PypiData } from "../types/pypi-data";
 
 interface ChartSelectionSectionProps {
-  stats: any
   repository: Repository
+  starsData: StarsData[];
+  trafficData: TrafficData[];
+  pypiData: PypiData[];
+  daysSinceDataStart: number;
 };
 
-const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps) => {
+const ChartSelectionSection = ({ repository, starsData, trafficData, pypiData, daysSinceDataStart }: ChartSelectionSectionProps) => {
 
   const [activeTab, setActiveTab] = useState('stars');
+
+  const tabs = ['stars', 'traffic']
+  // only include the package tab if the repository has a pypi package
+  if (repository.pypi_package_name != "") {
+    tabs.push('package')
+  }
 
   return (
     <div>
       <div className="flex border-b border-[#30363d] mb-8 overflow-x-auto">
-        {['stars', 'traffic', 'package'].map((tab) => (
+        {tabs.map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
@@ -40,7 +52,7 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
           <div className="flex items-center gap-3 px-4 py-3 bg-[#161b22] border border-[#30363d] rounded-lg text-sm text-[#8b949e]">
             <AlertCircle className="w-4 h-4 text-[#e3b341]" />
             <p>
-              Note: GitHub traffic data collected only from <span className="text-[#f0f6fc]">Oct 30</span> ({stats.daysSinceDataStart} days), but <code className="bg-[#21262d] px-1 py-0.5 rounded text-[#f0f6fc]">{ repository.name }</code> was released on <span className="text-[#f0f6fc]">Sep 11</span>.
+              Note: GitHub traffic data collected only from <span className="text-[#f0f6fc]">Oct 30</span> ({daysSinceDataStart} days), but <code className="bg-[#21262d] px-1 py-0.5 rounded text-[#f0f6fc]">{ repository.name }</code> was released on <span className="text-[#f0f6fc]">Sep 11</span>.
             </p>
           </div>
 
@@ -66,7 +78,7 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
             
             <div className="h-[300px] w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <AreaChart data={stats.TRAFFIC_DATA} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                <AreaChart data={trafficData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                   <defs>
                     <linearGradient id="colorClones" x1="0" y1="0" x2="0" y2="1">
                       <stop offset="5%" stopColor="#238636" stopOpacity={0.1}/>
@@ -133,7 +145,7 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
             
             <div className="h-[300px] w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <AreaChart data={stats.TRAFFIC_DATA} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                <AreaChart data={trafficData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                   <defs>
                     <linearGradient id="colorViews" x1="0" y1="0" x2="0" y2="1">
                       <stop offset="5%" stopColor="#a371f7" stopOpacity={0.1}/>
@@ -192,7 +204,7 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
                 <p className="text-xs text-[#8b949e] mb-2">Cumulative growth (star-history.com style)</p>
                 
                 <a 
-                  href={`https://www.star-history.com/#${repository.organization}/${repository.name}&type=date&legend=top-left`} 
+                  href={`https://www.star-history.com/#${repository.github_organization}/${repository.name}&type=date&legend=top-left`} 
                   target="_blank" 
                   rel="noreferrer"
                   className="flex items-center text-xs text-[#58a6ff] hover:underline"
@@ -201,13 +213,13 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
                 </a>
               </div>
               <div className="text-left md:text-right">
-                <div className="text-2xl font-bold text-[#f0f6fc]">{stats.STARS_DATA.length > 0 ? stats.STARS_DATA[stats.STARS_DATA.length - 1]?.stars || 237 : 237}</div>
+                <div className="text-2xl font-bold text-[#f0f6fc]">{starsData.length > 0 ? starsData[starsData.length - 1]?.stars || 0 : 0}</div>
                 <div className="text-xs text-[#8b949e]">Current Stars</div>
               </div>
             </div>
             <div className="h-[400px] w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={stats.STARS_DATA} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+                <LineChart data={starsData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#30363d" vertical={false} />
                   <XAxis 
                     dataKey="date" 
@@ -239,7 +251,7 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
         </div>
       )}
 
-      {activeTab === 'package' && (
+      {(activeTab === 'package' && repository.pypi_package_name)  && (
         <div className="animate-in fade-in duration-500 grid gap-6">
           <div className="bg-[#161b22] border border-[#30363d] rounded-xl p-6">
             <div className="flex justify-between items-start mb-6">
@@ -253,7 +265,7 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
                 </p>
               </div>
               <a 
-                href={`https://clickpy.clickhouse.com/dashboard/${repository.name}`} 
+                href={`https://clickpy.clickhouse.com/dashboard/${repository.pypi_package_name}`} 
                 target="_blank" 
                 rel="noreferrer"
                 className="flex items-center text-xs text-[#58a6ff] hover:underline"
@@ -264,7 +276,7 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
             
             <div className="h-[350px] w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={stats.PYPI_DATA} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                <BarChart data={starsData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#30363d" vertical={false} />
                   <XAxis 
                     dataKey="date" 
@@ -299,9 +311,13 @@ const ChartSelectionSection = ({ repository, stats }: ChartSelectionSectionProps
               <code className="bg-[#30363d] text-[#f0f6fc] px-4 py-2 rounded-md text-sm font-mono mt-2">
                 pip install {repository.name}
               </code>
-              <p className="text-xs text-[#8b949e] mt-4">
-                Latest version: <span className="text-[#f0f6fc]">{repository.version}</span>
-              </p>
+              {
+                repository.version != "" && ( 
+                  <p className="text-xs text-[#8b949e] mt-4">
+                    Latest version: <span className="text-[#f0f6fc]">{repository.version}</span>
+                  </p>
+                )
+              }
           </div>
         </div>
       )}

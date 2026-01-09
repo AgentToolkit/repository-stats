@@ -52,7 +52,7 @@ def merge_traffic_data(clones_json: dict, views_json: dict) -> List[Dict]:
     all_dates = set(clones_by_date.keys()) | set(views_by_date.keys())
     
     merged = []
-    for date in sorted(all_dates, key=lambda d: clones_by_date.get(d, views_by_date.get(d))['datetime']):
+    for date in sorted(all_dates, key=lambda d: clones_by_date.get(d, views_by_date.get(d))['datetime']): # type: ignore
         entry = {
             'date': date,
             'clones': clones_by_date.get(date, {}).get('clones', 0),

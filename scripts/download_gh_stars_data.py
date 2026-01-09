@@ -12,6 +12,7 @@ import os
 import sys
 from datetime import datetime
 from pathlib import Path
+from typing import cast
 
 try:
     import requests
@@ -33,7 +34,7 @@ def get_github_token() -> str:
     return token
 
 
-def download_stars_data(owner: str, repo: str, output_dir: Path, token: str) -> dict:
+def download_stars_data(owner: str, repo: str, output_dir: Path, token: str) -> dict | None:
     """Download stars data using GitHub REST API."""
     base_url = "https://api.github.com"
     
@@ -43,7 +44,7 @@ def download_stars_data(owner: str, repo: str, output_dir: Path, token: str) -> 
         "X-GitHub-Api-Version": "2022-11-28",
     }
 
-    output_file = output_dir / "stars.json"
+    output_file = output_dir / f"{repo}_stars.json"
     print(f"📥 Downloading stars data...")
 
     try:
@@ -89,10 +90,17 @@ def download_stars_data(owner: str, repo: str, output_dir: Path, token: str) -> 
         return None
 
 
-def create_summary(result: dict, output_dir: Path) -> None:
+def create_summary(data: dict, output_dir: Path) -> None:
     """Create a summary markdown file with stars statistics."""
-    summary_file = output_dir / "summary.md"
+    repo_name = cast(str, data.get("repository"))
+
+    summary_file = output_dir / f"{repo_name}_summary.md"
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
+
+    result = data.get("result", None)
+    if not result:
+        print("❌ Error: No stars data found.")
+        return None
 
     with open(summary_file, "w") as f:
         f.write(f"# GitHub Stars Data Summary\n\n")
@@ -155,10 +163,13 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     print(f"📁 Output directory: {output_dir}\n")
 
-    result = download_stars_data(owner, repo, output_dir, token)
+    data = {
+        "repository": repo,
+        "result": download_stars_data(owner, repo, output_dir, token)
+    }
 
-    if result:
-        create_summary(result, output_dir)
+    if data:
+        create_summary(data, output_dir)
         print(f"\n✅ Stars data downloaded successfully!")
         print(f"📂 All files saved to: {output_dir}")
     else:

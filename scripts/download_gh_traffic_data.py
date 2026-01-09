@@ -12,6 +12,7 @@ import os
 import sys
 from datetime import datetime
 from pathlib import Path
+from typing import cast
 
 try:
     import requests
@@ -91,7 +92,7 @@ def download_traffic_data(owner: str, repo: str, output_dir: Path, token: str) -
     results = {}
 
     for key, endpoint in endpoints.items():
-        output_file = output_dir / f"traffic_{key}.json"
+        output_file = output_dir / f"{repo}_traffic_{key}.json"
         print(f"📥 Downloading {key}...")
 
         try:
@@ -131,11 +132,14 @@ def download_traffic_data(owner: str, repo: str, output_dir: Path, token: str) -
     return results
 
 
-def create_summary(results: dict, output_dir: Path) -> None:
+def create_summary(data: dict, output_dir: Path) -> None:
     """Create a summary markdown file with traffic statistics."""
-    summary_file = output_dir / "summary.md"
+    repo_name = cast(str, data.get("repository"))
+
+    summary_file = output_dir / f"{repo_name}_summary.md"
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
 
+    results: dict = cast(dict, data.get("results"))
     with open(summary_file, "w") as f:
         f.write(f"# GitHub Traffic Data Summary\n\n")
         f.write(f"**Retrieved:** {timestamp}\n")
@@ -238,9 +242,12 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     print(f"📁 Output directory: {output_dir}\n")
 
-    results = download_traffic_data(owner, repo, output_dir, token)
+    data = {
+        "repository": repo,
+        "results": download_traffic_data(owner, repo, output_dir, token)
+    }
 
-    create_summary(results, output_dir)
+    create_summary(data, output_dir)
 
     print(f"\n✅ Traffic data downloaded successfully!")
     print(f"📂 All files saved to: {output_dir}")

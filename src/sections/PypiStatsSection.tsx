@@ -15,8 +15,8 @@ const PypiStatsSection = ({ last7DaysPyPI }: PypiStatsSectionProps) => (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       <StatCard
       title="Total Downloads"
-      value="103k"
-      subtext={`+${last7DaysPyPI.toLocaleString()} last 7 days · Large volume due to Langflow dependency`}
+      value={`${last7DaysPyPI.toLocaleString()}`}
+      subtext={`+${last7DaysPyPI.toLocaleString()} last 7 days`}
       trend="up"
       alert={true}
       icon={Download}
