@@ -2,9 +2,10 @@ import { glob } from "glob";
 
 export function parseTimestamp(timestamp) {
   const dt = new Date(timestamp);
+  const year = String(dt.getFullYear()).padStart(4, '0');
   const month = String(dt.getMonth() + 1).padStart(2, '0');
   const day = String(dt.getDate()).padStart(2, '0');
-  return { dateStr: `${month}/${day}`, datetime: dt };
+  return { dateStr: `${month}/${day}/${year}`, datetime: dt };
 }
 
 
@@ -22,14 +23,9 @@ export function getFilenameFromPath(path, with_extension=true) {
 export async function findMatchingFiles(pattern) {
   try {
     const files = await glob(pattern);
-    console.log("Found matching files: ", files);
-
-    files.forEach(file => {
-      console.log(file);
-    });
 
     return files;
   } catch (err) {
-    console.log("Error finding matching files: ", err);
+    console.warn("Error finding matching files: ", err);
   }
 }

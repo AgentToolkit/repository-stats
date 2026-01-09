@@ -46,31 +46,58 @@ interface RepositoryStatsPageProps {
 
 const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
   const trafficData = useMemo(() => {
-    const gapBridgeEndDate = '11/26';
+    const gapBridgeEndDate = '01/01/2026';
     const hardcodedEndIndex = HARDCODED_TRAFFIC_DATA[repository.name].findIndex((d: any) => d.date === gapBridgeEndDate);
     const hardcodedUpToGap = HARDCODED_TRAFFIC_DATA[repository.name].slice(0, hardcodedEndIndex + 1);
     
     const archiveDataAfterGap = MERGED_TRAFFIC_DATA[repository.name].filter(d => {
-      const [month, day] = d.date.split('/').map(Number);
-      const [gapMonth, gapDay] = gapBridgeEndDate.split('/').map(Number);
-      return month > gapMonth || (month === gapMonth && day > gapDay);
+      const [month, day, year] = d.date.split('/').map(Number);
+      const [gapMonth, gapDay, gapYear] = gapBridgeEndDate.split('/').map(Number);
+
+      const curDate = new Date(+year, +month-1, +day);
+      const gapDate = new Date(+gapYear, +gapMonth-1, +gapDay);
+
+      return curDate > gapDate;
     });
 
     return [...hardcodedUpToGap, ...archiveDataAfterGap];
   }, [repository]);
 
   const starsData = useMemo(() => {
-    const hardcodedEndDate = '12/11';
+    const hardcodedEndDate = '01/01/2026';
     const hardcodedEndIndex = HARDCODED_STARS_DATA[repository.name].findIndex((d: any) => d.date === hardcodedEndDate);
     const hardcodedUpToEnd = HARDCODED_STARS_DATA[repository.name].slice(0, hardcodedEndIndex + 1);
     
     const archiveDataAfterEnd = MERGED_STARS_DATA[repository.name].filter(d => {
-      const [month, day] = d.date.split('/').map(Number);
-      const [endMonth, endDay] = hardcodedEndDate.split('/').map(Number);
-      return month > endMonth || (month === endMonth && day > endDay);
+      const [month, day, year] = d.date.split('/').map(Number);
+      const [endMonth, endDay, endYear] = hardcodedEndDate.split('/').map(Number);
+
+      const curDate = new Date(+year, +month-1, +day);
+      const endDate = new Date(+endYear, +endMonth-1, +endDay);
+
+      return curDate > endDate;
     });
 
     return [...hardcodedUpToEnd, ...archiveDataAfterEnd];
+  }, [repository]);
+
+  const pypiData = useMemo(() => {
+    const hardcodedEndDate = "'01/01/2026";
+
+    const hardcodedEndIndex = PYPI_DATA[repository.name].findIndex((d: any) => d.date === hardcodedEndDate);
+    const hardcodedUpToEnd = PYPI_DATA[repository.name].slice(0, hardcodedEndIndex + 1);
+
+    const pypiDataAfterEnd = PYPI_DATA[repository.name].filter(d => {
+      const [month, day, year] = d.date.split('/').map(Number);
+      const [endMonth, endDay, endYear] = hardcodedEndDate.split('/').map(Number);
+
+      const curDate = new Date(+year, +month-1, +day);
+      const endDate = new Date(+endYear, +endMonth-1, +endDay);
+
+      return curDate > endDate;
+    });
+
+    return [...hardcodedUpToEnd, ...pypiDataAfterEnd];
   }, [repository]);
 
   const currentDate = useMemo(() => getDateFromTrafficData(trafficData, true), [trafficData]);
@@ -134,8 +161,10 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
     return Math.max(0, currentStars - sevenDaysAgoStars);
   }, [starsData, currentDate]);
   const last7DaysPyPI = useMemo(() => {
-    const sortedPyPI = [...PYPI_DATA[repository.name]].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-    return sortedPyPI[0]?.downloads || 0;
+    const sortedPyPI = [...pypiData].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+    const result = sortedPyPI[0]?.downloads || 0;
+    return result;
   }, [repository]);
 
   return (
@@ -160,7 +189,7 @@ const RepositoryStatsPage = ({ repository }: RepositoryStatsPageProps) => {
         repository={repository}
         starsData={starsData}
         trafficData={trafficData}
-        pypiData={PYPI_DATA[repository.name]}
+        pypiData={pypiData}
         daysSinceDataStart={daysSinceDataStart}
       />
     </main>
