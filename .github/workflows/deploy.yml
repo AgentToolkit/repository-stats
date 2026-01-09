@@ -47,19 +47,19 @@ jobs:
         run: npm install
 
       - name: Merge archive traffic data
-        run: npm run merge-archives
+        run: npm run merge-traffic-data
 
       - name: Merge archive stars data
-        run: npm run merge-stars
+        run: npm run merge-stars-data
 
       - name: Commit merged data (if changed)
         if: github.event_name == 'schedule' || github.event_name == 'workflow_run'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add src/merged-archive-data.ts src/merged-stars-data.ts
+          git add src/data/merged-gh-traffic-data.ts src/data/merged-gh-stars-data.ts
           if ! git diff --staged --quiet; then
-            git commit -m "chore: update merged archive data [skip ci]"
+            git commit -m "chore: update merged data [skip ci]"
             git push
           fi
 
