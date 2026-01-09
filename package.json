@@ -1,5 +1,5 @@
 {
-  "name": "cuga-stats",
+  "name": "repository-stats",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "merge-archives": "node scripts/merge-archives.js",
-    "merge-stars": "node scripts/merge-stars-archives.js"
+    "merge-traffic-data": "node scripts/merge-gh-traffic-data-archives.js",
+    "merge-stars-data": "node scripts/merge-gh-stars-data-archives.js"
   },
   "dependencies": {
     "glob": "^13.0.0",
