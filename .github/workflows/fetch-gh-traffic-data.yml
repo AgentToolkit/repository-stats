@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  fetch-traffic:
+  fetch-gh-traffic:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -43,7 +43,7 @@ jobs:
 
       - name: Update merged traffic data
         run: |
-          node scripts/merge-gh-traffic-archives-data.js
+          node scripts/merge-gh-traffic-data-archives.js
 
       - name: Commit and push changes
         run: |

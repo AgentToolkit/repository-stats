@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  fetch-stars:
+  fetch-gh-stars:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -43,7 +43,7 @@ jobs:
 
       - name: Update merged stars data
         run: |
-          node scripts/merge-gh-stars-archives-data.js
+          node scripts/merge-gh-stars-data-archives.js
 
       - name: Commit and push changes
         run: |
