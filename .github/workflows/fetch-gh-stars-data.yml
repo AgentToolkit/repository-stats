@@ -17,6 +17,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -25,6 +31,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          npm install
 
       - name: Download stars data
         env:
