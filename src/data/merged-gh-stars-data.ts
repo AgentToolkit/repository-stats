@@ -1,6 +1,6 @@
 // Auto-generated merged stars data
-// Generated from: gh_stars_data_20260116_010510, gh_stars_data_20260108_171837
-// Last updated: 2026-01-16T02:08:12.572Z
+// Generated from: gh_stars_data_20260117_010159, gh_stars_data_20260116_010510, gh_stars_data_20260108_171837
+// Last updated: 2026-01-17T01:01:59.748Z
 
 import { StarsData } from "../types/stars-data";
 
@@ -13,6 +13,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "01/16/2026",
       "stars": 0
+    },
+    {
+      "date": "01/17/2026",
+      "stars": 0
     }
   ],
   "kaizen": [
@@ -22,6 +26,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     },
     {
       "date": "01/16/2026",
+      "stars": 5
+    },
+    {
+      "date": "01/17/2026",
       "stars": 5
     }
   ],
@@ -33,6 +41,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "01/16/2026",
       "stars": 104
+    },
+    {
+      "date": "01/17/2026",
+      "stars": 104
     }
   ],
   "agent-analytics": [
@@ -43,7 +55,11 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "01/16/2026",
       "stars": 10
+    },
+    {
+      "date": "01/17/2026",
+      "stars": 10
     }
   ]
 };
-export const LAST_UPDATED_STARS_TIMESTAMP = '2026-01-16T01:05:09.000Z';
+export const LAST_UPDATED_STARS_TIMESTAMP = '2026-01-17T01:01:58.000Z';
