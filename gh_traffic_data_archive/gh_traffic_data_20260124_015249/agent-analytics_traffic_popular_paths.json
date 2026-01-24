@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/AgentToolkit/agent-analytics",
+    "title": "GitHub - AgentToolkit/agent-analytics: Agent Analytics",
+    "count": 16,
+    "uniques": 10
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/commits",
+    "title": "Commits \u00b7 AgentToolkit/agent-analytics \u00b7 GitHub",
+    "count": 4,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/blob/main/MAINTAINERS.md",
+    "title": "agent-analytics/MAINTAINERS.md at main \u00b7 AgentToolkit/agent-analytics \u00b7 GitHub",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/commits/main",
+    "title": "Commits \u00b7 AgentToolkit/agent-analytics \u00b7 GitHub",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/tree/main/sdk",
+    "title": "agent-analytics/sdk at main \u00b7 AgentToolkit/agent-analytics",
+    "count": 2,
+    "uniques": 1
+  }
+]
