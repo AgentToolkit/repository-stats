@@ -1,6 +1,6 @@
 // Auto-generated merged archive data
-// Generated from: gh_traffic_data_20260126_020621, gh_traffic_data_20260125_020653, gh_traffic_data_20260124_015249, gh_traffic_data_20260123_015608, gh_traffic_data_20260122_015955, gh_traffic_data_20260121_015912, gh_traffic_data_20260120_015631, gh_traffic_data_20260119_020137, gh_traffic_data_20260118_020337, gh_traffic_data_20260117_015103, gh_traffic_data_20260116_015650, gh_traffic_data_20260108_171815
-// Last updated: 2026-01-27T01:09:29.383Z
+// Generated from: gh_traffic_data_20260127_020303, gh_traffic_data_20260126_020621, gh_traffic_data_20260125_020653, gh_traffic_data_20260124_015249, gh_traffic_data_20260123_015608, gh_traffic_data_20260122_015955, gh_traffic_data_20260121_015912, gh_traffic_data_20260120_015631, gh_traffic_data_20260119_020137, gh_traffic_data_20260118_020337, gh_traffic_data_20260117_015103, gh_traffic_data_20260116_015650, gh_traffic_data_20260108_171815
+// Last updated: 2026-01-27T02:03:03.893Z
 
 import { TrafficData } from "../types/traffic-data";
 
@@ -218,6 +218,13 @@ export const MERGED_ARCHIVE_DATA: {[key: string]: TrafficData[]} = {
     },
     {
       "date": "01/24/2026",
+      "clones": 0,
+      "uniqueCloners": 0,
+      "views": 1,
+      "uniqueVisitors": 1
+    },
+    {
+      "date": "01/25/2026",
       "clones": 0,
       "uniqueCloners": 0,
       "views": 1,
@@ -441,6 +448,13 @@ export const MERGED_ARCHIVE_DATA: {[key: string]: TrafficData[]} = {
       "uniqueCloners": 0,
       "views": 4,
       "uniqueVisitors": 4
+    },
+    {
+      "date": "01/25/2026",
+      "clones": 41,
+      "uniqueCloners": 8,
+      "views": 34,
+      "uniqueVisitors": 7
     }
   ],
   "kaizen": [
@@ -659,6 +673,13 @@ export const MERGED_ARCHIVE_DATA: {[key: string]: TrafficData[]} = {
       "clones": 36,
       "uniqueCloners": 12,
       "views": 54,
+      "uniqueVisitors": 1
+    },
+    {
+      "date": "01/25/2026",
+      "clones": 3,
+      "uniqueCloners": 3,
+      "views": 1,
       "uniqueVisitors": 1
     }
   ],
@@ -879,7 +900,14 @@ export const MERGED_ARCHIVE_DATA: {[key: string]: TrafficData[]} = {
       "uniqueCloners": 2,
       "views": 0,
       "uniqueVisitors": 0
+    },
+    {
+      "date": "01/25/2026",
+      "clones": 22,
+      "uniqueCloners": 7,
+      "views": 1,
+      "uniqueVisitors": 1
     }
   ]
 };
-export const LAST_UPDATED_TIMESTAMP = '2026-01-26T02:06:17.000Z';
+export const LAST_UPDATED_TIMESTAMP = '2026-01-27T02:03:00.000Z';
