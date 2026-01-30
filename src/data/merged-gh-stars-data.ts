@@ -1,6 +1,6 @@
 // Auto-generated merged stars data
-// Generated from: gh_stars_data_20260129_011459, gh_stars_data_20260128_010529, gh_stars_data_20260127_010910, gh_stars_data_20260126_011022, gh_stars_data_20260125_011142, gh_stars_data_20260124_010255, gh_stars_data_20260123_010558, gh_stars_data_20260122_010607, gh_stars_data_20260121_010627, gh_stars_data_20260120_010352, gh_stars_data_20260119_010859, gh_stars_data_20260118_010950, gh_stars_data_20260117_010159, gh_stars_data_20260116_010510, gh_stars_data_20260108_171837
-// Last updated: 2026-01-29T02:32:25.644Z
+// Generated from: gh_stars_data_20260130_011428, gh_stars_data_20260129_011459, gh_stars_data_20260128_010529, gh_stars_data_20260127_010910, gh_stars_data_20260126_011022, gh_stars_data_20260125_011142, gh_stars_data_20260124_010255, gh_stars_data_20260123_010558, gh_stars_data_20260122_010607, gh_stars_data_20260121_010627, gh_stars_data_20260120_010352, gh_stars_data_20260119_010859, gh_stars_data_20260118_010950, gh_stars_data_20260117_010159, gh_stars_data_20260116_010510, gh_stars_data_20260108_171837
+// Last updated: 2026-01-30T01:14:29.013Z
 
 import { StarsData } from "../types/stars-data";
 
@@ -65,6 +65,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "01/29/2026",
       "stars": 0
+    },
+    {
+      "date": "01/30/2026",
+      "stars": 0
     }
   ],
   "kaizen": [
@@ -126,6 +130,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     },
     {
       "date": "01/29/2026",
+      "stars": 6
+    },
+    {
+      "date": "01/30/2026",
       "stars": 6
     }
   ],
@@ -189,6 +197,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "01/29/2026",
       "stars": 107
+    },
+    {
+      "date": "01/30/2026",
+      "stars": 109
     }
   ],
   "agent-analytics": [
@@ -251,7 +263,11 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "01/29/2026",
       "stars": 11
+    },
+    {
+      "date": "01/30/2026",
+      "stars": 11
     }
   ]
 };
-export const LAST_UPDATED_STARS_TIMESTAMP = '2026-01-29T01:14:59.000Z';
+export const LAST_UPDATED_STARS_TIMESTAMP = '2026-01-30T01:14:28.000Z';
