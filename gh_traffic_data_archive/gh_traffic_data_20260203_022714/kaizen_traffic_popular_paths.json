@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/AgentToolkit/kaizen/pulls",
+    "title": "Pull requests \u00b7 AgentToolkit/kaizen",
+    "count": 91,
+    "uniques": 5
+  },
+  {
+    "path": "/AgentToolkit/kaizen",
+    "title": "AgentToolkit/kaizen: Self improving agents through iterations",
+    "count": 70,
+    "uniques": 15
+  },
+  {
+    "path": "/AgentToolkit/kaizen/issues",
+    "title": "GitHub \u00b7 Where software is built",
+    "count": 34,
+    "uniques": 6
+  },
+  {
+    "path": "/AgentToolkit/kaizen/pull/35",
+    "title": "Add create_entity and delete_entity MCP tools by visahak \u00b7 Pull Request #35 \u00b7...",
+    "count": 28,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/kaizen/pull/33",
+    "title": "Refactor: Rename 'kata' to 'entity' by visahak \u00b7 Pull Request #33 \u00b7 AgentTool...",
+    "count": 26,
+    "uniques": 3
+  },
+  {
+    "path": "/AgentToolkit/kaizen/pull/40",
+    "title": "Add milvus backend unit test by illeatmyhat \u00b7 Pull Request #40 \u00b7 AgentToolkit...",
+    "count": 25,
+    "uniques": 7
+  },
+  {
+    "path": "/AgentToolkit/kaizen/pull/37",
+    "title": "Feat: add Kaizen Low-Code Mode (Auto-Instrumentation) by visahak \u00b7 Pull Reque...",
+    "count": 24,
+    "uniques": 3
+  },
+  {
+    "path": "/AgentToolkit/kaizen/issues/26",
+    "title": "Towards a blog post \u00b7 Issue #26 \u00b7 AgentToolkit/kaizen",
+    "count": 19,
+    "uniques": 5
+  },
+  {
+    "path": "/AgentToolkit/kaizen/pull/41",
+    "title": "feat: add kaizen plugin for Claude Code guidelines by vinodmut \u00b7 Pull Request...",
+    "count": 13,
+    "uniques": 3
+  },
+  {
+    "path": "/AgentToolkit/kaizen/pull/30",
+    "title": "Improve trajectory storage and fix schema handling by vinodmut \u00b7 Pull Request...",
+    "count": 12,
+    "uniques": 4
+  }
+]
