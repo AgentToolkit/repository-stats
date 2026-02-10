@@ -1,6 +1,6 @@
 // Auto-generated merged stars data
-// Generated from: gh_stars_data_20260209_012044, gh_stars_data_20260208_015022, gh_stars_data_20260207_011335, gh_stars_data_20260206_011457, gh_stars_data_20260205_011515, gh_stars_data_20260204_011433, gh_stars_data_20260203_011857, gh_stars_data_20260202_011848, gh_stars_data_20260201_012646, gh_stars_data_20260131_011133, gh_stars_data_20260130_011428, gh_stars_data_20260129_011459, gh_stars_data_20260128_010529, gh_stars_data_20260127_010910, gh_stars_data_20260126_011022, gh_stars_data_20260125_011142, gh_stars_data_20260124_010255, gh_stars_data_20260123_010558, gh_stars_data_20260122_010607, gh_stars_data_20260121_010627, gh_stars_data_20260120_010352, gh_stars_data_20260119_010859, gh_stars_data_20260118_010950, gh_stars_data_20260117_010159, gh_stars_data_20260116_010510, gh_stars_data_20260108_171837
-// Last updated: 2026-02-09T02:43:40.750Z
+// Generated from: gh_stars_data_20260210_012920, gh_stars_data_20260209_012044, gh_stars_data_20260208_015022, gh_stars_data_20260207_011335, gh_stars_data_20260206_011457, gh_stars_data_20260205_011515, gh_stars_data_20260204_011433, gh_stars_data_20260203_011857, gh_stars_data_20260202_011848, gh_stars_data_20260201_012646, gh_stars_data_20260131_011133, gh_stars_data_20260130_011428, gh_stars_data_20260129_011459, gh_stars_data_20260128_010529, gh_stars_data_20260127_010910, gh_stars_data_20260126_011022, gh_stars_data_20260125_011142, gh_stars_data_20260124_010255, gh_stars_data_20260123_010558, gh_stars_data_20260122_010607, gh_stars_data_20260121_010627, gh_stars_data_20260120_010352, gh_stars_data_20260119_010859, gh_stars_data_20260118_010950, gh_stars_data_20260117_010159, gh_stars_data_20260116_010510, gh_stars_data_20260108_171837
+// Last updated: 2026-02-10T01:29:20.779Z
 
 import { StarsData } from "../types/stars-data";
 
@@ -109,6 +109,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "02/09/2026",
       "stars": 0
+    },
+    {
+      "date": "02/10/2026",
+      "stars": 0
     }
   ],
   "kaizen": [
@@ -214,6 +218,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     },
     {
       "date": "02/09/2026",
+      "stars": 6
+    },
+    {
+      "date": "02/10/2026",
       "stars": 6
     }
   ],
@@ -321,6 +329,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "02/09/2026",
       "stars": 109
+    },
+    {
+      "date": "02/10/2026",
+      "stars": 109
     }
   ],
   "agent-analytics": [
@@ -427,7 +439,11 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "02/09/2026",
       "stars": 11
+    },
+    {
+      "date": "02/10/2026",
+      "stars": 11
     }
   ]
 };
-export const LAST_UPDATED_STARS_TIMESTAMP = '2026-02-09T01:20:43.000Z';
+export const LAST_UPDATED_STARS_TIMESTAMP = '2026-02-10T01:29:19.000Z';
