@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/AgentToolkit/agent-analytics",
+    "title": "GitHub - AgentToolkit/agent-analytics: Agent Analytics",
+    "count": 18,
+    "uniques": 14
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/commits/main",
+    "title": "Commits \u00b7 AgentToolkit/agent-analytics",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/tree/main/backend/src/agent_analytics/core/analytics",
+    "title": "agent-analytics/backend/src/agent_analytics/core at main \u00b7 AgentToolkit/agent...",
+    "count": 4,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/tree/main/backend/src/agent_analytics",
+    "title": "agent-analytics/backend at main \u00b7 AgentToolkit/agent-analytics \u00b7 GitHub",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/tree/main/backend/src/agent_analytics/core",
+    "title": "agent-analytics/backend/src/agent_analytics/core/analytics at main \u00b7 AgentToo...",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/blob/main/backend/src/agent_analytics/core/analytics/metric_instrumentation.py",
+    "title": "agent-analytics/backend/src/agent_analytics/core/analytics at main \u00b7 AgentToo...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/blob/main/sdk/README.md",
+    "title": "agent-analytics/README.md at main \u00b7 AgentToolkit/agent-analytics \u00b7 GitHub",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/blob/main/README.md",
+    "title": "agent-analytics/docs at main \u00b7 AgentToolkit/agent-analytics \u00b7 GitHub",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/blob/main/common/README.md",
+    "title": "agent-analytics/sdk/README.md at main \u00b7 AgentToolkit/agent-analytics \u00b7 GitHub",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/blob/main/sdk/docs/architecture.md",
+    "title": "agent-analytics/sdk/README.md at main \u00b7 AgentToolkit/agent-analytics \u00b7 GitHub",
+    "count": 1,
+    "uniques": 1
+  }
+]
