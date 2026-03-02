@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/AgentToolkit/agent-analytics",
+    "title": "GitHub - AgentToolkit/agent-analytics: Agent Analytics",
+    "count": 32,
+    "uniques": 15
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor",
+    "title": "GitHub - AgentToolkit/agent-mentor: Agent Analytics",
+    "count": 12,
+    "uniques": 4
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main/src/analytics/plugins/semantic-feature-analysis",
+    "title": "agent-mentor/src/analytics/plugins/semantic-feature-analysis at main \u00b7 AgentT...",
+    "count": 9,
+    "uniques": 4
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main",
+    "title": "GitHub - AgentToolkit/agent-mentor: Agent Analytics",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main/src/analytics",
+    "title": "agent-mentor/src at main \u00b7 AgentToolkit/agent-mentor \u00b7 GitHub",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main/src/analytics/plugins",
+    "title": "agent-mentor/src/analytics at main \u00b7 AgentToolkit/agent-mentor \u00b7 GitHub",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/tree/main/backend/src/agent_analytics/core/analytics",
+    "title": "agent-analytics/backend/src/agent_analytics/core at main \u00b7 AgentToolkit/agent...",
+    "count": 4,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/tree/main/backend/src/agent_analytics",
+    "title": "agent-analytics/backend at main \u00b7 AgentToolkit/agent-analytics \u00b7 GitHub",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics/tree/main/backend/src/agent_analytics/core",
+    "title": "agent-analytics/backend/src/agent_analytics/core/analytics at main \u00b7 AgentToo...",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main/src",
+    "title": "agent-mentor/src at main \u00b7 AgentToolkit/agent-mentor \u00b7 GitHub",
+    "count": 3,
+    "uniques": 1
+  }
+]
