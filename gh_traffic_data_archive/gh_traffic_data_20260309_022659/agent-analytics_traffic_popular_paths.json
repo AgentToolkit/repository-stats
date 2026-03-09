@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/AgentToolkit/agent-mentor",
+    "title": "AgentToolkit/agent-mentor: Agent Analytics",
+    "count": 25,
+    "uniques": 6
+  },
+  {
+    "path": "/AgentToolkit/agent-analytics",
+    "title": "GitHub - AgentToolkit/agent-analytics: Agent Analytics",
+    "count": 20,
+    "uniques": 6
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main/src/analytics/plugins/semantic-feature-analysis",
+    "title": "agent-mentor/src/analytics/plugins at main \u00b7 AgentToolkit/agent-mentor \u00b7 GitHub",
+    "count": 11,
+    "uniques": 4
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main/src/analytics",
+    "title": "agent-mentor/src at main \u00b7 AgentToolkit/agent-mentor \u00b7 GitHub",
+    "count": 6,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main/src/analytics/plugins",
+    "title": "agent-mentor/src/analytics at main \u00b7 AgentToolkit/agent-mentor \u00b7 GitHub",
+    "count": 6,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main",
+    "title": "GitHub - AgentToolkit/agent-mentor: Agent Analytics",
+    "count": 5,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main/src",
+    "title": "agent-mentor/src at main \u00b7 AgentToolkit/agent-mentor \u00b7 GitHub",
+    "count": 5,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/blob/main/src/analytics/__init__.py",
+    "title": "agent-mentor/src/analytics/__init__.py at main \u00b7 AgentToolkit/agent-mentor",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main/sdk",
+    "title": "agent-mentor/sdk at main \u00b7 AgentToolkit/agent-mentor \u00b7 GitHub",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/tree/main/sdk/src/agent_analytics",
+    "title": "agent-mentor/sdk at main \u00b7 AgentToolkit/agent-mentor \u00b7 GitHub",
+    "count": 2,
+    "uniques": 1
+  }
+]
