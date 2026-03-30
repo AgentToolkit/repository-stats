@@ -1,0 +1,37 @@
+[
+  {
+    "referrer": "agenttoolkit.github.io",
+    "count": 43,
+    "uniques": 17
+  },
+  {
+    "referrer": "github.com",
+    "count": 38,
+    "uniques": 12
+  },
+  {
+    "referrer": "Bing",
+    "count": 5,
+    "uniques": 2
+  },
+  {
+    "referrer": "Google",
+    "count": 3,
+    "uniques": 2
+  },
+  {
+    "referrer": "scanned.page",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "referrer": "research.ibm.com",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "referrer": "yandex.ru",
+    "count": 1,
+    "uniques": 1
+  }
+]
