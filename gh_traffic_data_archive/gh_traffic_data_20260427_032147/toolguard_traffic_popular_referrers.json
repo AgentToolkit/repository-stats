@@ -1,0 +1,27 @@
+[
+  {
+    "referrer": "github.com",
+    "count": 23,
+    "uniques": 4
+  },
+  {
+    "referrer": "statics.teams.cdn.office.net",
+    "count": 21,
+    "uniques": 2
+  },
+  {
+    "referrer": "langflow.org",
+    "count": 15,
+    "uniques": 15
+  },
+  {
+    "referrer": "Bing",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "referrer": "Google",
+    "count": 4,
+    "uniques": 2
+  }
+]
