@@ -1,0 +1,52 @@
+[
+  {
+    "referrer": "ibm.com",
+    "count": 201,
+    "uniques": 80
+  },
+  {
+    "referrer": "github.com",
+    "count": 131,
+    "uniques": 44
+  },
+  {
+    "referrer": "agenttoolkit.github.io",
+    "count": 61,
+    "uniques": 22
+  },
+  {
+    "referrer": "huggingface.co",
+    "count": 39,
+    "uniques": 22
+  },
+  {
+    "referrer": "Google",
+    "count": 20,
+    "uniques": 13
+  },
+  {
+    "referrer": "github.ibm.com",
+    "count": 12,
+    "uniques": 3
+  },
+  {
+    "referrer": "youtube.com",
+    "count": 11,
+    "uniques": 5
+  },
+  {
+    "referrer": "linkedin.com",
+    "count": 9,
+    "uniques": 6
+  },
+  {
+    "referrer": "reddit.com",
+    "count": 7,
+    "uniques": 6
+  },
+  {
+    "referrer": "statics.teams.cdn.office.net",
+    "count": 5,
+    "uniques": 4
+  }
+]
