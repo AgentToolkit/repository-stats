@@ -1,6 +1,6 @@
 // Auto-generated merged stars data
-// Generated from: gh_stars_data_20260529_022837, gh_stars_data_20260528_021254, gh_stars_data_20260527_023614, gh_stars_data_20260526_022715, gh_stars_data_20260525_023652, gh_stars_data_20260524_022841, gh_stars_data_20260523_020949, gh_stars_data_20260522_023314, gh_stars_data_20260521_023144, gh_stars_data_20260520_023043, gh_stars_data_20260519_023023, gh_stars_data_20260518_023147, gh_stars_data_20260517_021101, gh_stars_data_20260516_020631, gh_stars_data_20260515_021444, gh_stars_data_20260514_022558, gh_stars_data_20260513_021417, gh_stars_data_20260512_020834, gh_stars_data_20260511_021307, gh_stars_data_20260510_020418, gh_stars_data_20260509_020340, gh_stars_data_20260508_021003, gh_stars_data_20260507_020307, gh_stars_data_20260506_020036, gh_stars_data_20260505_020120, gh_stars_data_20260504_020131, gh_stars_data_20260503_020041, gh_stars_data_20260502_015706, gh_stars_data_20260501_020930, gh_stars_data_20260430_020606, gh_stars_data_20260429_020549, gh_stars_data_20260428_020414, gh_stars_data_20260427_015743, gh_stars_data_20260426_015403, gh_stars_data_20260425_012945, gh_stars_data_20260424_015116, gh_stars_data_20260423_015123, gh_stars_data_20260422_014750, gh_stars_data_20260421_014839, gh_stars_data_20260420_015318, gh_stars_data_20260419_015132, gh_stars_data_20260418_012641, gh_stars_data_20260417_014805, gh_stars_data_20260416_015146, gh_stars_data_20260415_012859, gh_stars_data_20260414_014822, gh_stars_data_20260413_015238, gh_stars_data_20260412_014800, gh_stars_data_20260411_012407, gh_stars_data_20260410_012957, gh_stars_data_20260409_012049, gh_stars_data_20260408_012828, gh_stars_data_20260407_012810, gh_stars_data_20260406_014436, gh_stars_data_20260405_014315, gh_stars_data_20260404_012033, gh_stars_data_20260403_012603, gh_stars_data_20260402_012418, gh_stars_data_20260401_014801, gh_stars_data_20260331_012715, gh_stars_data_20260330_013006, gh_stars_data_20260329_012924, gh_stars_data_20260328_011927, gh_stars_data_20260327_012554, gh_stars_data_20260326_012607, gh_stars_data_20260325_012100, gh_stars_data_20260324_011536, gh_stars_data_20260323_012221, gh_stars_data_20260322_012204, gh_stars_data_20260321_011300, gh_stars_data_20260320_011733, gh_stars_data_20260319_012200, gh_stars_data_20260318_012218, gh_stars_data_20260317_011816, gh_stars_data_20260316_012652, gh_stars_data_20260315_012710, gh_stars_data_20260314_011502, gh_stars_data_20260313_011623, gh_stars_data_20260312_011055, gh_stars_data_20260311_011256, gh_stars_data_20260310_011213, gh_stars_data_20260309_011812, gh_stars_data_20260308_011813, gh_stars_data_20260307_011237, gh_stars_data_20260306_012051, gh_stars_data_20260305_011734, gh_stars_data_20260304_011521, gh_stars_data_20260303_011959, gh_stars_data_20260302_011705, gh_stars_data_20260301_012458, gh_stars_data_20260228_010912, gh_stars_data_20260227_011510, gh_stars_data_20260226_011609, gh_stars_data_20260225_012156, gh_stars_data_20260224_011744, gh_stars_data_20260223_011922, gh_stars_data_20260222_011942, gh_stars_data_20260221_011419, gh_stars_data_20260220_011636, gh_stars_data_20260219_012049, gh_stars_data_20260218_012103, gh_stars_data_20260217_011850, gh_stars_data_20260216_011935, gh_stars_data_20260215_012254, gh_stars_data_20260214_011530, gh_stars_data_20260213_012310, gh_stars_data_20260212_012026, gh_stars_data_20260211_012654, gh_stars_data_20260210_012920, gh_stars_data_20260209_012044, gh_stars_data_20260208_015022, gh_stars_data_20260207_011335, gh_stars_data_20260206_011457, gh_stars_data_20260205_011515, gh_stars_data_20260204_011433, gh_stars_data_20260203_011857, gh_stars_data_20260202_011848, gh_stars_data_20260201_012646, gh_stars_data_20260131_011133, gh_stars_data_20260130_011428, gh_stars_data_20260129_011459, gh_stars_data_20260128_010529, gh_stars_data_20260127_010910, gh_stars_data_20260126_011022, gh_stars_data_20260125_011142, gh_stars_data_20260124_010255, gh_stars_data_20260123_010558, gh_stars_data_20260122_010607, gh_stars_data_20260121_010627, gh_stars_data_20260120_010352, gh_stars_data_20260119_010859, gh_stars_data_20260118_010950, gh_stars_data_20260117_010159, gh_stars_data_20260116_010510, gh_stars_data_20260108_171837
-// Last updated: 2026-05-29T04:09:26.798Z
+// Generated from: gh_stars_data_20260530_021151, gh_stars_data_20260529_022837, gh_stars_data_20260528_021254, gh_stars_data_20260527_023614, gh_stars_data_20260526_022715, gh_stars_data_20260525_023652, gh_stars_data_20260524_022841, gh_stars_data_20260523_020949, gh_stars_data_20260522_023314, gh_stars_data_20260521_023144, gh_stars_data_20260520_023043, gh_stars_data_20260519_023023, gh_stars_data_20260518_023147, gh_stars_data_20260517_021101, gh_stars_data_20260516_020631, gh_stars_data_20260515_021444, gh_stars_data_20260514_022558, gh_stars_data_20260513_021417, gh_stars_data_20260512_020834, gh_stars_data_20260511_021307, gh_stars_data_20260510_020418, gh_stars_data_20260509_020340, gh_stars_data_20260508_021003, gh_stars_data_20260507_020307, gh_stars_data_20260506_020036, gh_stars_data_20260505_020120, gh_stars_data_20260504_020131, gh_stars_data_20260503_020041, gh_stars_data_20260502_015706, gh_stars_data_20260501_020930, gh_stars_data_20260430_020606, gh_stars_data_20260429_020549, gh_stars_data_20260428_020414, gh_stars_data_20260427_015743, gh_stars_data_20260426_015403, gh_stars_data_20260425_012945, gh_stars_data_20260424_015116, gh_stars_data_20260423_015123, gh_stars_data_20260422_014750, gh_stars_data_20260421_014839, gh_stars_data_20260420_015318, gh_stars_data_20260419_015132, gh_stars_data_20260418_012641, gh_stars_data_20260417_014805, gh_stars_data_20260416_015146, gh_stars_data_20260415_012859, gh_stars_data_20260414_014822, gh_stars_data_20260413_015238, gh_stars_data_20260412_014800, gh_stars_data_20260411_012407, gh_stars_data_20260410_012957, gh_stars_data_20260409_012049, gh_stars_data_20260408_012828, gh_stars_data_20260407_012810, gh_stars_data_20260406_014436, gh_stars_data_20260405_014315, gh_stars_data_20260404_012033, gh_stars_data_20260403_012603, gh_stars_data_20260402_012418, gh_stars_data_20260401_014801, gh_stars_data_20260331_012715, gh_stars_data_20260330_013006, gh_stars_data_20260329_012924, gh_stars_data_20260328_011927, gh_stars_data_20260327_012554, gh_stars_data_20260326_012607, gh_stars_data_20260325_012100, gh_stars_data_20260324_011536, gh_stars_data_20260323_012221, gh_stars_data_20260322_012204, gh_stars_data_20260321_011300, gh_stars_data_20260320_011733, gh_stars_data_20260319_012200, gh_stars_data_20260318_012218, gh_stars_data_20260317_011816, gh_stars_data_20260316_012652, gh_stars_data_20260315_012710, gh_stars_data_20260314_011502, gh_stars_data_20260313_011623, gh_stars_data_20260312_011055, gh_stars_data_20260311_011256, gh_stars_data_20260310_011213, gh_stars_data_20260309_011812, gh_stars_data_20260308_011813, gh_stars_data_20260307_011237, gh_stars_data_20260306_012051, gh_stars_data_20260305_011734, gh_stars_data_20260304_011521, gh_stars_data_20260303_011959, gh_stars_data_20260302_011705, gh_stars_data_20260301_012458, gh_stars_data_20260228_010912, gh_stars_data_20260227_011510, gh_stars_data_20260226_011609, gh_stars_data_20260225_012156, gh_stars_data_20260224_011744, gh_stars_data_20260223_011922, gh_stars_data_20260222_011942, gh_stars_data_20260221_011419, gh_stars_data_20260220_011636, gh_stars_data_20260219_012049, gh_stars_data_20260218_012103, gh_stars_data_20260217_011850, gh_stars_data_20260216_011935, gh_stars_data_20260215_012254, gh_stars_data_20260214_011530, gh_stars_data_20260213_012310, gh_stars_data_20260212_012026, gh_stars_data_20260211_012654, gh_stars_data_20260210_012920, gh_stars_data_20260209_012044, gh_stars_data_20260208_015022, gh_stars_data_20260207_011335, gh_stars_data_20260206_011457, gh_stars_data_20260205_011515, gh_stars_data_20260204_011433, gh_stars_data_20260203_011857, gh_stars_data_20260202_011848, gh_stars_data_20260201_012646, gh_stars_data_20260131_011133, gh_stars_data_20260130_011428, gh_stars_data_20260129_011459, gh_stars_data_20260128_010529, gh_stars_data_20260127_010910, gh_stars_data_20260126_011022, gh_stars_data_20260125_011142, gh_stars_data_20260124_010255, gh_stars_data_20260123_010558, gh_stars_data_20260122_010607, gh_stars_data_20260121_010627, gh_stars_data_20260120_010352, gh_stars_data_20260119_010859, gh_stars_data_20260118_010950, gh_stars_data_20260117_010159, gh_stars_data_20260116_010510, gh_stars_data_20260108_171837
+// Last updated: 2026-05-30T02:11:51.416Z
 
 import { StarsData } from "../types/stars-data";
 
@@ -545,6 +545,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "05/29/2026",
       "stars": 4
+    },
+    {
+      "date": "05/30/2026",
+      "stars": 4
     }
   ],
   "kaizen": [
@@ -1086,6 +1090,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     },
     {
       "date": "05/29/2026",
+      "stars": 85
+    },
+    {
+      "date": "05/30/2026",
       "stars": 85
     }
   ],
@@ -1629,6 +1637,10 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "05/29/2026",
       "stars": 116
+    },
+    {
+      "date": "05/30/2026",
+      "stars": 116
     }
   ],
   "agent-analytics": [
@@ -2171,7 +2183,11 @@ export const MERGED_STARS_DATA: {[key: string]: StarsData[]} = {
     {
       "date": "05/29/2026",
       "stars": 12
+    },
+    {
+      "date": "05/30/2026",
+      "stars": 12
     }
   ]
 };
-export const LAST_UPDATED_STARS_TIMESTAMP = '2026-05-29T02:28:36.000Z';
+export const LAST_UPDATED_STARS_TIMESTAMP = '2026-05-30T02:11:50.000Z';
