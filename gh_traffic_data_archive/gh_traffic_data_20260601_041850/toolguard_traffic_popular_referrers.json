@@ -1,0 +1,37 @@
+[
+  {
+    "referrer": "linkedin.com",
+    "count": 14,
+    "uniques": 3
+  },
+  {
+    "referrer": "langflow.org",
+    "count": 6,
+    "uniques": 4
+  },
+  {
+    "referrer": "Google",
+    "count": 4,
+    "uniques": 3
+  },
+  {
+    "referrer": "github.com",
+    "count": 3,
+    "uniques": 3
+  },
+  {
+    "referrer": "Bing",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "referrer": "langflow-org-git-blog-post-policy-component-datastax-marketing.vercel.app",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "referrer": "statics.teams.cdn.office.net",
+    "count": 1,
+    "uniques": 1
+  }
+]
