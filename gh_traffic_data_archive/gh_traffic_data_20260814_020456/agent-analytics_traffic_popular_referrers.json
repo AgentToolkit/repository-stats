@@ -1,11 +1,6 @@
 [
   {
     "referrer": "Google",
-    "count": 16,
-    "uniques": 7
-  },
-  {
-    "referrer": "Bing",
     "count": 2,
     "uniques": 2
   },
