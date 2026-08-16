@@ -1,0 +1,22 @@
+[
+  {
+    "referrer": "github.com",
+    "count": 38,
+    "uniques": 10
+  },
+  {
+    "referrer": "Google",
+    "count": 7,
+    "uniques": 3
+  },
+  {
+    "referrer": "pypi.org",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "referrer": "libregistry.com",
+    "count": 1,
+    "uniques": 1
+  }
+]
