@@ -1,0 +1,37 @@
+[
+  {
+    "referrer": "github.com",
+    "count": 41,
+    "uniques": 12
+  },
+  {
+    "referrer": "Google",
+    "count": 18,
+    "uniques": 6
+  },
+  {
+    "referrer": "agenttoolkit.github.io",
+    "count": 7,
+    "uniques": 2
+  },
+  {
+    "referrer": "search.brave.com",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "referrer": "libregistry.com",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "referrer": "pypi.org",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "referrer": "research.ibm.com",
+    "count": 1,
+    "uniques": 1
+  }
+]
