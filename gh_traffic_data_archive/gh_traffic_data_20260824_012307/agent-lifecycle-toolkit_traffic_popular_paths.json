@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/AgentToolkit/altk-boost",
+    "title": "Overview",
+    "count": 55,
+    "uniques": 25
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/pulls",
+    "title": "/pulls",
+    "count": 21,
+    "uniques": 4
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/issues",
+    "title": "/issues",
+    "count": 11,
+    "uniques": 6
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/actions",
+    "title": "/actions",
+    "count": 10,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/tree/main/altk",
+    "title": "/tree/main/altk",
+    "count": 9,
+    "uniques": 3
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/tree/main/altk/pre_llm/routing",
+    "title": "/tree/main/altk/pre_llm/routing",
+    "count": 9,
+    "uniques": 3
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/pull/121",
+    "title": "/pull/121",
+    "count": 7,
+    "uniques": 3
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/pull/117",
+    "title": "/pull/117",
+    "count": 7,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/tree/main/altk/pre_llm/routing/retrieval_augmented_thinking",
+    "title": "/tree/main/altk/pre_llm/routing/retrieval_augmented_thinking",
+    "count": 6,
+    "uniques": 4
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/tree/main/altk/build_time/tool_enrichment_toolkit",
+    "title": "/tree/main/altk/build_time/tool_enrichment_toolkit",
+    "count": 5,
+    "uniques": 4
+  }
+]
