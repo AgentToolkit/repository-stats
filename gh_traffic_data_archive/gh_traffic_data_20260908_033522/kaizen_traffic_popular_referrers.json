@@ -1,0 +1,52 @@
+[
+  {
+    "referrer": "huggingface.co",
+    "count": 39,
+    "uniques": 18
+  },
+  {
+    "referrer": "Google",
+    "count": 29,
+    "uniques": 19
+  },
+  {
+    "referrer": "github.com",
+    "count": 28,
+    "uniques": 10
+  },
+  {
+    "referrer": "agenttoolkit.github.io",
+    "count": 21,
+    "uniques": 6
+  },
+  {
+    "referrer": "ibm.com",
+    "count": 8,
+    "uniques": 5
+  },
+  {
+    "referrer": "linkedin.com",
+    "count": 5,
+    "uniques": 3
+  },
+  {
+    "referrer": "Bing",
+    "count": 5,
+    "uniques": 2
+  },
+  {
+    "referrer": "ocn4elb0aird.feishu.cn",
+    "count": 5,
+    "uniques": 1
+  },
+  {
+    "referrer": "nio.feishu.cn",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "referrer": "DuckDuckGo",
+    "count": 1,
+    "uniques": 1
+  }
+]
