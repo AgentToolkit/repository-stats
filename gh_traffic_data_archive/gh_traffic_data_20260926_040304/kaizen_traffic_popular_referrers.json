@@ -1,0 +1,52 @@
+[
+  {
+    "referrer": "huggingface.co",
+    "count": 69,
+    "uniques": 56
+  },
+  {
+    "referrer": "Google",
+    "count": 56,
+    "uniques": 28
+  },
+  {
+    "referrer": "github.com",
+    "count": 37,
+    "uniques": 21
+  },
+  {
+    "referrer": "agenttoolkit.github.io",
+    "count": 25,
+    "uniques": 12
+  },
+  {
+    "referrer": "linkedin.com",
+    "count": 11,
+    "uniques": 11
+  },
+  {
+    "referrer": "Bing",
+    "count": 11,
+    "uniques": 4
+  },
+  {
+    "referrer": "pages.github.ibm.com",
+    "count": 7,
+    "uniques": 4
+  },
+  {
+    "referrer": "ibm.com",
+    "count": 5,
+    "uniques": 3
+  },
+  {
+    "referrer": "github.ibm.com",
+    "count": 4,
+    "uniques": 4
+  },
+  {
+    "referrer": "arxiv.org",
+    "count": 3,
+    "uniques": 3
+  }
+]

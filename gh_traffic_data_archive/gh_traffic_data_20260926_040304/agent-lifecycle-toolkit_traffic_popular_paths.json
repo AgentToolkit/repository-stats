@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/AgentToolkit/altk-boost",
+    "title": "Overview",
+    "count": 29,
+    "uniques": 23
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/tree/main/altk/pre_llm/routing/retrieval_augmented_thinking",
+    "title": "/tree/main/altk/pre_llm/routing/retrieval_augmented_thinking",
+    "count": 8,
+    "uniques": 4
+  },
+  {
+    "path": "/agenttoolkit/altk-boost",
+    "title": "Overview",
+    "count": 4,
+    "uniques": 3
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/tree/main",
+    "title": "/tree/main",
+    "count": 3,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/tree/main/altk",
+    "title": "/tree/main/altk",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/tree/main/altk/pre_llm/routing",
+    "title": "/tree/main/altk/pre_llm/routing",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/blob/main/README.md",
+    "title": "/blob/main/README.md",
+    "count": 2,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/commits/main/altk/pre_llm/routing/retrieval_augmented_thinking",
+    "title": "/commits/main/altk/pre_llm/routing/retrieval_augmented_thinking",
+    "count": 2,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/blob/main/CHANGELOG.md",
+    "title": "/blob/main/CHANGELOG.md",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/blob/main/altk/pre_llm/routing/retrieval_augmented_thinking/README.md",
+    "title": "/blob/main/altk/pre_llm/routing/retrieval_augmented_thinking/README.md",
+    "count": 2,
+    "uniques": 1
+  }
+]
