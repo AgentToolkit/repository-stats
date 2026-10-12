@@ -1,28 +1,28 @@
 # GitHub Traffic Data Summary
 
-**Retrieved:** 2026-10-11 04:39:54 UTC
+**Retrieved:** 2026-10-12 04:55:13 UTC
 **Data Period:** Last 14 days (as of retrieval time)
 
 ---
 
 ## Page Views
 
-- **Total Views:** 64
+- **Total Views:** 63
 - **Total Unique Visitors:** 23
 - **Days Tracked:** 14
 - **Peak Day:** 2026-09-29T00:00:00Z (20 views)
 
 ## Repository Clones
 
-- **Total Clones:** 66
-- **Total Unique Cloners:** 35
+- **Total Clones:** 63
+- **Total Unique Cloners:** 32
 - **Days Tracked:** 14
 - **Peak Day:** 2026-09-27T00:00:00Z (33 clones)
 
 ## Popular Paths
 
 1. `/AgentToolkit/toolguard` - Overview
-   - Views: 37 | Uniques: 22
+   - Views: 36 | Uniques: 22
 2. `/AgentToolkit/toolguard/blob/main/docs/ToolGuard.code-workspace.drawio` - /blob/main/docs/ToolGuard.code-workspace.drawio
    - Views: 2 | Uniques: 2
 3. `/AgentToolkit/toolguard/tree/main/docs` - /tree/main/docs
@@ -44,10 +44,10 @@
 
 ## Popular Referrers
 
-1. `Google`
-   - Views: 5 | Uniques: 4
-2. `chatgpt.com`
+1. `chatgpt.com`
    - Views: 4 | Uniques: 1
+2. `Google`
+   - Views: 3 | Uniques: 3
 3. `langflow.org`
    - Views: 2 | Uniques: 1
 

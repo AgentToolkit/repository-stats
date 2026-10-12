@@ -2,8 +2,8 @@
   {
     "path": "/AgentToolkit/altk-boost",
     "title": "Overview",
-    "count": 14,
-    "uniques": 12
+    "count": 15,
+    "uniques": 13
   },
   {
     "path": "/agenttoolkit/altk-boost",
@@ -24,24 +24,6 @@
     "uniques": 1
   },
   {
-    "path": "/AgentToolkit/altk-boost/issues",
-    "title": "/issues",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/AgentToolkit/altk-boost/issues/102",
-    "title": "/issues/102",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/AgentToolkit/altk-boost/issues/103",
-    "title": "/issues/103",
-    "count": 1,
-    "uniques": 1
-  },
-  {
     "path": "/AgentToolkit/altk-boost/issues/114",
     "title": "/issues/114",
     "count": 1,
@@ -56,6 +38,18 @@
   {
     "path": "/AgentToolkit/altk-boost/tree/main/altk/pre_tool/refraction",
     "title": "/tree/main/altk/pre_tool/refraction",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/tree/main/altk/pre_tool/sparc",
+    "title": "/tree/main/altk/pre_tool/sparc",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/altk-boost/tree/main/examples",
+    "title": "/tree/main/examples",
     "count": 1,
     "uniques": 1
   }
