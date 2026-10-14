@@ -1,55 +1,55 @@
 # GitHub Traffic Data Summary
 
-**Retrieved:** 2026-10-13 05:56:44 UTC
+**Retrieved:** 2026-10-14 03:59:32 UTC
 **Data Period:** Last 14 days (as of retrieval time)
 
 ---
 
 ## Page Views
 
-- **Total Views:** 1,110
-- **Total Unique Visitors:** 250
+- **Total Views:** 1,060
+- **Total Unique Visitors:** 248
 - **Days Tracked:** 14
 - **Peak Day:** 2026-09-30T00:00:00Z (200 views)
 
 ## Repository Clones
 
-- **Total Clones:** 3,046
-- **Total Unique Cloners:** 849
+- **Total Clones:** 2,950
+- **Total Unique Cloners:** 860
 - **Days Tracked:** 14
 - **Peak Day:** 2026-09-30T00:00:00Z (498 clones)
 
 ## Popular Paths
 
 1. `/AgentToolkit/altk-evolve` - Overview
-   - Views: 279 | Uniques: 129
+   - Views: 265 | Uniques: 125
 2. `/AgentToolkit/altk-evolve/pulls` - /pulls
-   - Views: 194 | Uniques: 9
+   - Views: 177 | Uniques: 9
 3. `/AgentToolkit/altk-evolve/issues` - /issues
-   - Views: 42 | Uniques: 9
+   - Views: 39 | Uniques: 8
 4. `/AgentToolkit/altk-evolve/pull/313` - /pull/313
-   - Views: 41 | Uniques: 3
+   - Views: 37 | Uniques: 3
 5. `/AgentToolkit/altk-evolve/pull/337` - /pull/337
-   - Views: 21 | Uniques: 2
-6. `/AgentToolkit/altk-evolve/pull/327` - /pull/327
-   - Views: 19 | Uniques: 4
+   - Views: 32 | Uniques: 3
+6. `/AgentToolkit/altk-evolve/pull/338` - /pull/338
+   - Views: 16 | Uniques: 4
 7. `/AgentToolkit/altk-evolve/pull/314` - /pull/314
-   - Views: 18 | Uniques: 1
-8. `/AgentToolkit/altk-evolve/pull/338` - /pull/338
-   - Views: 14 | Uniques: 4
-9. `/AgentToolkit/altk-evolve/pull/336` - /pull/336
+   - Views: 14 | Uniques: 1
+8. `/AgentToolkit/altk-evolve/pull/336` - /pull/336
    - Views: 13 | Uniques: 5
-10. `/AgentToolkit/altk-evolve/pull/328` - /pull/328
+9. `/AgentToolkit/altk-evolve/pull/375` - /pull/375
    - Views: 10 | Uniques: 4
+10. `/AgentToolkit/altk-evolve/graphs/contributors` - /graphs/contributors
+   - Views: 9 | Uniques: 5
 
 ## Popular Referrers
 
-1. `Google`
-   - Views: 32 | Uniques: 10
-2. `github.com`
+1. `github.com`
    - Views: 31 | Uniques: 14
-3. `huggingface.co`
-   - Views: 27 | Uniques: 20
+2. `huggingface.co`
+   - Views: 22 | Uniques: 18
+3. `Google`
+   - Views: 20 | Uniques: 8
 4. `Bing`
    - Views: 11 | Uniques: 11
 5. `agenttoolkit.github.io`
@@ -57,10 +57,10 @@
 6. `t.co`
    - Views: 7 | Uniques: 5
 7. `linkedin.com`
-   - Views: 4 | Uniques: 4
+   - Views: 3 | Uniques: 3
 8. `com.linkedin.android`
    - Views: 3 | Uniques: 2
-9. `arxiv.org`
+9. `confluence.wargaming.net`
    - Views: 2 | Uniques: 1
 10. `ibm.com`
    - Views: 2 | Uniques: 1

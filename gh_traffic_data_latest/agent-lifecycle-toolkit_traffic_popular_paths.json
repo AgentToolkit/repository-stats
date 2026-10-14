@@ -2,14 +2,14 @@
   {
     "path": "/AgentToolkit/altk-boost",
     "title": "Overview",
-    "count": 16,
-    "uniques": 14
+    "count": 14,
+    "uniques": 12
   },
   {
     "path": "/agenttoolkit/altk-boost",
     "title": "Overview",
-    "count": 6,
-    "uniques": 5
+    "count": 7,
+    "uniques": 6
   },
   {
     "path": "/AgentToolkit/altk-boost/blob/main/CODE_OF_CONDUCT.md",
@@ -18,14 +18,14 @@
     "uniques": 2
   },
   {
-    "path": "/AgentToolkit/altk-boost/blob/main/MAINTAINERS.md",
-    "title": "/blob/main/MAINTAINERS.md",
+    "path": "/AgentToolkit/altk-boost/blob/main/CHANGELOG.md",
+    "title": "/blob/main/CHANGELOG.md",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/AgentToolkit/altk-boost/blob/main/examples/Test-Case-Generation-Example.ipynb",
-    "title": "/blob/main/examples/Test-Case-Generation-Example.ipynb",
+    "path": "/AgentToolkit/altk-boost/blob/main/MAINTAINERS.md",
+    "title": "/blob/main/MAINTAINERS.md",
     "count": 1,
     "uniques": 1
   },
@@ -44,12 +44,6 @@
   {
     "path": "/AgentToolkit/altk-boost/tree/main/altk/pre_tool/sparc",
     "title": "/tree/main/altk/pre_tool/sparc",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/AgentToolkit/altk-boost/tree/main/examples",
-    "title": "/tree/main/examples",
     "count": 1,
     "uniques": 1
   }
