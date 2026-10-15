@@ -1,0 +1,52 @@
+[
+  {
+    "referrer": "github.com",
+    "count": 24,
+    "uniques": 14
+  },
+  {
+    "referrer": "huggingface.co",
+    "count": 16,
+    "uniques": 15
+  },
+  {
+    "referrer": "Google",
+    "count": 15,
+    "uniques": 7
+  },
+  {
+    "referrer": "Bing",
+    "count": 12,
+    "uniques": 12
+  },
+  {
+    "referrer": "t.co",
+    "count": 7,
+    "uniques": 5
+  },
+  {
+    "referrer": "agenttoolkit.github.io",
+    "count": 7,
+    "uniques": 3
+  },
+  {
+    "referrer": "com.linkedin.android",
+    "count": 3,
+    "uniques": 2
+  },
+  {
+    "referrer": "ibm.com",
+    "count": 3,
+    "uniques": 2
+  },
+  {
+    "referrer": "linkedin.com",
+    "count": 2,
+    "uniques": 2
+  },
+  {
+    "referrer": "confluence.wargaming.net",
+    "count": 2,
+    "uniques": 1
+  }
+]

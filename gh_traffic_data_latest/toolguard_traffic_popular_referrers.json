@@ -1,7 +1,7 @@
 [
   {
     "referrer": "chatgpt.com",
-    "count": 5,
+    "count": 6,
     "uniques": 1
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "referrer": "langflow.org",
-    "count": 2,
-    "uniques": 1
+    "count": 3,
+    "uniques": 2
   }
 ]
