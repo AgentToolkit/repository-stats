@@ -2,8 +2,14 @@
   {
     "path": "/AgentToolkit/toolguard",
     "title": "Overview",
-    "count": 44,
-    "uniques": 23
+    "count": 49,
+    "uniques": 27
+  },
+  {
+    "path": "/AgentToolkit/toolguard/blob/main/docs/gen_spec_v2_usage.md",
+    "title": "/blob/main/docs/gen_spec_v2_usage.md",
+    "count": 4,
+    "uniques": 2
   },
   {
     "path": "/AgentToolkit/toolguard/blob/main/docs/ToolGuard.code-workspace.drawio",
@@ -18,15 +24,9 @@
     "uniques": 3
   },
   {
-    "path": "/AgentToolkit/toolguard/blob/main/docs/gen_spec_v2_usage.md",
-    "title": "/blob/main/docs/gen_spec_v2_usage.md",
-    "count": 3,
-    "uniques": 2
-  },
-  {
     "path": "/AgentToolkit/toolguard/blob/main/policy_writing_guidelines.md",
     "title": "/blob/main/policy_writing_guidelines.md",
-    "count": 2,
+    "count": 3,
     "uniques": 2
   },
   {
