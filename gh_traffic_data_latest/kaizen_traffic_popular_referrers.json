@@ -1,13 +1,8 @@
 [
   {
     "referrer": "github.com",
-    "count": 23,
-    "uniques": 14
-  },
-  {
-    "referrer": "Bing",
-    "count": 12,
-    "uniques": 12
+    "count": 19,
+    "uniques": 13
   },
   {
     "referrer": "huggingface.co",
@@ -15,19 +10,24 @@
     "uniques": 11
   },
   {
-    "referrer": "Google",
-    "count": 8,
-    "uniques": 7
-  },
-  {
     "referrer": "t.co",
     "count": 7,
     "uniques": 5
   },
   {
+    "referrer": "Google",
+    "count": 6,
+    "uniques": 6
+  },
+  {
     "referrer": "agenttoolkit.github.io",
     "count": 6,
     "uniques": 4
+  },
+  {
+    "referrer": "Bing",
+    "count": 3,
+    "uniques": 3
   },
   {
     "referrer": "com.linkedin.android",
