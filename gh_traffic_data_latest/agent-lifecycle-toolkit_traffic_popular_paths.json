@@ -2,8 +2,8 @@
   {
     "path": "/AgentToolkit/altk-boost",
     "title": "Overview",
-    "count": 15,
-    "uniques": 12
+    "count": 10,
+    "uniques": 8
   },
   {
     "path": "/agenttoolkit/altk-boost",
@@ -26,12 +26,6 @@
   {
     "path": "/AgentToolkit/altk-boost/blob/main/CHANGELOG.md",
     "title": "/blob/main/CHANGELOG.md",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/AgentToolkit/altk-boost/blob/main/CODE_OF_CONDUCT.md",
-    "title": "/blob/main/CODE_OF_CONDUCT.md",
     "count": 1,
     "uniques": 1
   },
