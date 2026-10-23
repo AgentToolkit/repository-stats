@@ -42,6 +42,12 @@
     "uniques": 1
   },
   {
+    "path": "/AgentToolkit/altk-boost/graphs/contributors",
+    "title": "/graphs/contributors",
+    "count": 1,
+    "uniques": 1
+  },
+  {
     "path": "/AgentToolkit/altk-boost/tree/main/altk/pre_tool",
     "title": "/tree/main/altk/pre_tool",
     "count": 1,

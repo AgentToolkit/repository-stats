@@ -2,8 +2,8 @@
   {
     "path": "/AgentToolkit/toolguard",
     "title": "Overview",
-    "count": 40,
-    "uniques": 22
+    "count": 37,
+    "uniques": 21
   },
   {
     "path": "/AgentToolkit/toolguard/blob/main/docs/gen_spec_v2_usage.md",
@@ -20,14 +20,14 @@
   {
     "path": "/AgentToolkit/toolguard/blob/main/docs/ToolGuard.code-workspace.drawio",
     "title": "/blob/main/docs/ToolGuard.code-workspace.drawio",
-    "count": 3,
-    "uniques": 3
+    "count": 2,
+    "uniques": 2
   },
   {
     "path": "/AgentToolkit/toolguard/tree/main/docs",
     "title": "/tree/main/docs",
-    "count": 3,
-    "uniques": 3
+    "count": 2,
+    "uniques": 2
   },
   {
     "path": "/AgentToolkit/toolguard/tree/main/docs/superpowers/specs",
