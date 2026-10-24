@@ -1,17 +1,17 @@
 [
   {
     "referrer": "github.com",
-    "count": 14,
-    "uniques": 9
-  },
-  {
-    "referrer": "huggingface.co",
-    "count": 6,
-    "uniques": 6
+    "count": 10,
+    "uniques": 7
   },
   {
     "referrer": "Google",
     "count": 6,
+    "uniques": 5
+  },
+  {
+    "referrer": "huggingface.co",
+    "count": 5,
     "uniques": 5
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "referrer": "confluence.wargaming.net",
-    "count": 2,
+    "count": 1,
     "uniques": 1
   },
   {
