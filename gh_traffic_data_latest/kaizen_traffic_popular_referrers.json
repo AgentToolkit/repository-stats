@@ -10,19 +10,19 @@
     "uniques": 5
   },
   {
-    "referrer": "huggingface.co",
-    "count": 5,
-    "uniques": 5
-  },
-  {
     "referrer": "agenttoolkit.github.io",
     "count": 5,
     "uniques": 4
   },
   {
+    "referrer": "huggingface.co",
+    "count": 4,
+    "uniques": 4
+  },
+  {
     "referrer": "Bing",
-    "count": 2,
-    "uniques": 2
+    "count": 3,
+    "uniques": 3
   },
   {
     "referrer": "confluence.wargaming.net",
