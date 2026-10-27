@@ -18,12 +18,6 @@
     "uniques": 9
   },
   {
-    "path": "/agenttoolkit/altk-boost",
-    "title": "Overview",
-    "count": 3,
-    "uniques": 2
-  },
-  {
     "path": "/AgentToolkit/altk-boost/blob/1c6bb6d5/docs/index.md",
     "title": "/blob/1c6bb6d5/docs/index.md",
     "count": 2,
@@ -56,6 +50,12 @@
   {
     "path": "/AgentToolkit/altk-boost/tree/main/altk/pre_tool/refraction",
     "title": "/tree/main/altk/pre_tool/refraction",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/agenttoolkit/altk-boost",
+    "title": "Overview",
     "count": 2,
     "uniques": 1
   }
