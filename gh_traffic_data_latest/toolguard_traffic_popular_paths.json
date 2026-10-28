@@ -2,13 +2,19 @@
   {
     "path": "/AgentToolkit/toolguard",
     "title": "Overview",
-    "count": 31,
+    "count": 25,
     "uniques": 17
   },
   {
     "path": "/AgentToolkit/toolguard/blob/main/policy_writing_guidelines.md",
     "title": "/blob/main/policy_writing_guidelines.md",
     "count": 4,
+    "uniques": 2
+  },
+  {
+    "path": "/AgentToolkit/toolguard/pulls",
+    "title": "/pulls",
+    "count": 2,
     "uniques": 2
   },
   {
@@ -24,8 +30,8 @@
     "uniques": 1
   },
   {
-    "path": "/AgentToolkit/toolguard/pulls",
-    "title": "/pulls",
+    "path": "/AgentToolkit/toolguard/graphs/commit-activity",
+    "title": "/graphs/commit-activity",
     "count": 1,
     "uniques": 1
   },
