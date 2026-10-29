@@ -2,14 +2,8 @@
   {
     "path": "/AgentToolkit/toolguard",
     "title": "Overview",
-    "count": 25,
-    "uniques": 17
-  },
-  {
-    "path": "/AgentToolkit/toolguard/blob/main/policy_writing_guidelines.md",
-    "title": "/blob/main/policy_writing_guidelines.md",
-    "count": 4,
-    "uniques": 2
+    "count": 22,
+    "uniques": 15
   },
   {
     "path": "/AgentToolkit/toolguard/pulls",
@@ -18,32 +12,20 @@
     "uniques": 2
   },
   {
-    "path": "/AgentToolkit/toolguard/blob/main/docs/gen_spec_v2_usage.md",
-    "title": "/blob/main/docs/gen_spec_v2_usage.md",
+    "path": "/AgentToolkit/toolguard/blob/main/policy_writing_guidelines.md",
+    "title": "/blob/main/policy_writing_guidelines.md",
     "count": 2,
     "uniques": 1
   },
   {
-    "path": "/AgentToolkit/toolguard/blob/main/docs/ToolGuard.code-workspace.drawio",
-    "title": "/blob/main/docs/ToolGuard.code-workspace.drawio",
+    "path": "/AgentToolkit/toolguard/blob/main/docs/gen_spec_v2_usage.md",
+    "title": "/blob/main/docs/gen_spec_v2_usage.md",
     "count": 1,
     "uniques": 1
   },
   {
     "path": "/AgentToolkit/toolguard/graphs/commit-activity",
     "title": "/graphs/commit-activity",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/AgentToolkit/toolguard/tree/main/docs",
-    "title": "/tree/main/docs",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/AgentToolkit/toolguard/tree/main/docs/superpowers/specs",
-    "title": "/tree/main/docs/superpowers/specs",
     "count": 1,
     "uniques": 1
   }
