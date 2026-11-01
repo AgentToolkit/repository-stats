@@ -2,20 +2,14 @@
   {
     "path": "/AgentToolkit/toolguard",
     "title": "Overview",
-    "count": 20,
-    "uniques": 13
+    "count": 18,
+    "uniques": 11
   },
   {
     "path": "/AgentToolkit/toolguard/pulls",
     "title": "/pulls",
     "count": 2,
     "uniques": 2
-  },
-  {
-    "path": "/AgentToolkit/toolguard/blob/main/policy_writing_guidelines.md",
-    "title": "/blob/main/policy_writing_guidelines.md",
-    "count": 1,
-    "uniques": 1
   },
   {
     "path": "/AgentToolkit/toolguard/blob/main/pyproject.toml",
