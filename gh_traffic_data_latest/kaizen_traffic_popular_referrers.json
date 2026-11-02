@@ -21,13 +21,13 @@
   },
   {
     "referrer": "Bing",
-    "count": 10,
-    "uniques": 10
+    "count": 16,
+    "uniques": 11
   },
   {
     "referrer": "agenttoolkit.github.io",
-    "count": 6,
-    "uniques": 5
+    "count": 8,
+    "uniques": 6
   },
   {
     "referrer": "github-com.btglss.net",
@@ -45,8 +45,8 @@
     "uniques": 2
   },
   {
-    "referrer": "confluence.bilgem.tubitak.gov.tr",
-    "count": 1,
+    "referrer": "trendshift.io",
+    "count": 2,
     "uniques": 1
   }
 ]
