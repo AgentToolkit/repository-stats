@@ -6,13 +6,13 @@
   },
   {
     "referrer": "huggingface.co",
-    "count": 24,
-    "uniques": 20
+    "count": 27,
+    "uniques": 22
   },
   {
-    "referrer": "Google",
-    "count": 16,
-    "uniques": 13
+    "referrer": "Bing",
+    "count": 19,
+    "uniques": 12
   },
   {
     "referrer": "github.com",
@@ -20,9 +20,9 @@
     "uniques": 12
   },
   {
-    "referrer": "Bing",
-    "count": 16,
-    "uniques": 11
+    "referrer": "Google",
+    "count": 14,
+    "uniques": 12
   },
   {
     "referrer": "agenttoolkit.github.io",
