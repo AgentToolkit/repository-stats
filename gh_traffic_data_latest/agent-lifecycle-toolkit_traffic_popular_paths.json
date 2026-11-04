@@ -18,6 +18,12 @@
     "uniques": 10
   },
   {
+    "path": "/AgentToolkit/altk-boost/pull/116",
+    "title": "/pull/116",
+    "count": 3,
+    "uniques": 3
+  },
+  {
     "path": "/AgentToolkit/altk-boost/tree/main/altk",
     "title": "/tree/main/altk",
     "count": 3,
@@ -44,12 +50,6 @@
   {
     "path": "/AgentToolkit/altk-boost/issues",
     "title": "/issues",
-    "count": 2,
-    "uniques": 2
-  },
-  {
-    "path": "/AgentToolkit/altk-boost/pull/116",
-    "title": "/pull/116",
     "count": 2,
     "uniques": 2
   },
