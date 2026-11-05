@@ -1,28 +1,28 @@
 # GitHub Traffic Data Summary
 
-**Retrieved:** 2026-11-04 05:20:37 UTC
+**Retrieved:** 2026-11-05 05:39:57 UTC
 **Data Period:** Last 14 days (as of retrieval time)
 
 ---
 
 ## Page Views
 
-- **Total Views:** 14
-- **Total Unique Visitors:** 12
+- **Total Views:** 13
+- **Total Unique Visitors:** 11
 - **Days Tracked:** 14
 - **Peak Day:** 2026-10-25T00:00:00Z (3 views)
 
 ## Repository Clones
 
-- **Total Clones:** 18
-- **Total Unique Cloners:** 10
+- **Total Clones:** 17
+- **Total Unique Cloners:** 9
 - **Days Tracked:** 14
 - **Peak Day:** 2026-10-26T00:00:00Z (8 clones)
 
 ## Popular Paths
 
 1. `/AgentToolkit/agent-mentor` - Overview
-   - Views: 8 | Uniques: 7
+   - Views: 7 | Uniques: 6
 2. `/AgentToolkit/agent-mentor/blob/main/sdk/README.md` - /blob/main/sdk/README.md
    - Views: 2 | Uniques: 1
 3. `/AgentToolkit/agent-mentor/forks` - /forks
@@ -37,7 +37,7 @@
 ## Popular Referrers
 
 1. `github.com`
-   - Views: 5 | Uniques: 4
+   - Views: 4 | Uniques: 3
 2. `aocr.org`
    - Views: 3 | Uniques: 3
 3. `github-com.btglss.net`

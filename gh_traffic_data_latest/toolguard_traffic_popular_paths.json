@@ -3,17 +3,11 @@
     "path": "/AgentToolkit/toolguard",
     "title": "Overview",
     "count": 20,
-    "uniques": 14
+    "uniques": 15
   },
   {
     "path": "/AgentToolkit/toolguard/blob/main/pyproject.toml",
     "title": "/blob/main/pyproject.toml",
-    "count": 2,
-    "uniques": 2
-  },
-  {
-    "path": "/AgentToolkit/toolguard/pulls",
-    "title": "/pulls",
     "count": 2,
     "uniques": 2
   },
@@ -44,6 +38,12 @@
   {
     "path": "/AgentToolkit/toolguard/pull/28",
     "title": "/pull/28",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/toolguard/pulls",
+    "title": "/pulls",
     "count": 1,
     "uniques": 1
   }
