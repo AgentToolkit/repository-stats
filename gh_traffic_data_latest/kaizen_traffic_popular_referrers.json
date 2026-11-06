@@ -5,29 +5,29 @@
     "uniques": 90
   },
   {
-    "referrer": "huggingface.co",
-    "count": 27,
-    "uniques": 22
+    "referrer": "Bing",
+    "count": 25,
+    "uniques": 15
   },
   {
-    "referrer": "Bing",
-    "count": 23,
+    "referrer": "huggingface.co",
+    "count": 24,
+    "uniques": 20
+  },
+  {
+    "referrer": "github.com",
+    "count": 18,
     "uniques": 13
   },
   {
     "referrer": "Google",
-    "count": 17,
-    "uniques": 14
-  },
-  {
-    "referrer": "github.com",
-    "count": 17,
+    "count": 16,
     "uniques": 13
   },
   {
     "referrer": "agenttoolkit.github.io",
-    "count": 8,
-    "uniques": 6
+    "count": 7,
+    "uniques": 5
   },
   {
     "referrer": "github-com.btglss.net",

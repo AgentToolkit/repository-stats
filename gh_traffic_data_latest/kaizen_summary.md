@@ -1,61 +1,61 @@
 # GitHub Traffic Data Summary
 
-**Retrieved:** 2026-11-05 05:39:59 UTC
+**Retrieved:** 2026-11-06 05:37:18 UTC
 **Data Period:** Last 14 days (as of retrieval time)
 
 ---
 
 ## Page Views
 
-- **Total Views:** 610
-- **Total Unique Visitors:** 285
+- **Total Views:** 599
+- **Total Unique Visitors:** 277
 - **Days Tracked:** 14
 - **Peak Day:** 2026-10-27T00:00:00Z (99 views)
 
 ## Repository Clones
 
-- **Total Clones:** 7,193
-- **Total Unique Cloners:** 909
+- **Total Clones:** 3,947
+- **Total Unique Cloners:** 778
 - **Days Tracked:** 14
-- **Peak Day:** 2026-10-21T00:00:00Z (3,326 clones)
+- **Peak Day:** 2026-10-23T00:00:00Z (1,153 clones)
 
 ## Popular Paths
 
 1. `/AgentToolkit/altk-evolve` - Overview
-   - Views: 228 | Uniques: 152
+   - Views: 219 | Uniques: 140
 2. `/AgentToolkit/altk-evolve/pulls` - /pulls
-   - Views: 58 | Uniques: 10
+   - Views: 55 | Uniques: 10
 3. `/AgentToolkit/altk-evolve/pull/467` - /pull/467
    - Views: 19 | Uniques: 3
-4. `/AgentToolkit/altk-evolve/pull/470` - /pull/470
+4. `/AgentToolkit/altk-evolve/blob/main/AGENTS.md` - /blob/main/AGENTS.md
+   - Views: 15 | Uniques: 12
+5. `/AgentToolkit/altk-evolve/pull/470` - /pull/470
    - Views: 14 | Uniques: 3
-5. `/AgentToolkit/altk-evolve/blob/main/AGENTS.md` - /blob/main/AGENTS.md
-   - Views: 13 | Uniques: 10
 6. `/AgentToolkit/altk-evolve/issues` - /issues
-   - Views: 10 | Uniques: 7
-7. `/AgentToolkit/altk-evolve/pull/439` - /pull/439
-   - Views: 9 | Uniques: 1
-8. `/agenttoolkit/altk-evolve` - Overview
-   - Views: 8 | Uniques: 7
-9. `/AgentToolkit/altk-evolve/discussions` - /discussions
-   - Views: 8 | Uniques: 5
-10. `/AgentToolkit/altk-evolve/commit/d2140e891c7b6710706227e9393df42d8f72b026` - /commit/d2140e891c7b6710706227e9393df42d8f72b026
+   - Views: 12 | Uniques: 8
+7. `/agenttoolkit/altk-evolve` - Overview
+   - Views: 9 | Uniques: 8
+8. `/AgentToolkit/altk-evolve/discussions` - /discussions
+   - Views: 9 | Uniques: 5
+9. `/AgentToolkit/altk-evolve/commit/d2140e891c7b6710706227e9393df42d8f72b026` - /commit/d2140e891c7b6710706227e9393df42d8f72b026
    - Views: 7 | Uniques: 3
+10. `/AgentToolkit/altk-evolve/pull/439` - /pull/439
+   - Views: 7 | Uniques: 1
 
 ## Popular Referrers
 
 1. `aocr.org`
    - Views: 90 | Uniques: 90
-2. `huggingface.co`
-   - Views: 27 | Uniques: 22
-3. `Bing`
-   - Views: 23 | Uniques: 13
-4. `Google`
-   - Views: 17 | Uniques: 14
-5. `github.com`
-   - Views: 17 | Uniques: 13
+2. `Bing`
+   - Views: 25 | Uniques: 15
+3. `huggingface.co`
+   - Views: 24 | Uniques: 20
+4. `github.com`
+   - Views: 18 | Uniques: 13
+5. `Google`
+   - Views: 16 | Uniques: 13
 6. `agenttoolkit.github.io`
-   - Views: 8 | Uniques: 6
+   - Views: 7 | Uniques: 5
 7. `github-com.btglss.net`
    - Views: 5 | Uniques: 4
 8. `teams.public.onecdn.static.microsoft`
