@@ -1,8 +1,8 @@
 [
   {
     "referrer": "aocr.org",
-    "count": 90,
-    "uniques": 90
+    "count": 259,
+    "uniques": 259
   },
   {
     "referrer": "Bing",
@@ -15,24 +15,29 @@
     "uniques": 20
   },
   {
-    "referrer": "github.com",
-    "count": 18,
-    "uniques": 13
+    "referrer": "Google",
+    "count": 17,
+    "uniques": 14
   },
   {
-    "referrer": "Google",
-    "count": 16,
+    "referrer": "github.com",
+    "count": 17,
     "uniques": 13
   },
   {
     "referrer": "agenttoolkit.github.io",
-    "count": 7,
-    "uniques": 5
+    "count": 6,
+    "uniques": 4
   },
   {
     "referrer": "github-com.btglss.net",
     "count": 5,
     "uniques": 4
+  },
+  {
+    "referrer": "linkedin.com",
+    "count": 2,
+    "uniques": 2
   },
   {
     "referrer": "teams.public.onecdn.static.microsoft",
@@ -42,11 +47,6 @@
   {
     "referrer": "trendshift.io",
     "count": 2,
-    "uniques": 1
-  },
-  {
-    "referrer": "confluence.bilgem.tubitak.gov.tr",
-    "count": 1,
     "uniques": 1
   }
 ]
