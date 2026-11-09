@@ -42,12 +42,6 @@
     "uniques": 1
   },
   {
-    "path": "/AgentToolkit/agent-mentor/issues",
-    "title": "/issues",
-    "count": 1,
-    "uniques": 1
-  },
-  {
     "path": "/AgentToolkit/agent-mentor/pulls",
     "title": "/pulls",
     "count": 1,

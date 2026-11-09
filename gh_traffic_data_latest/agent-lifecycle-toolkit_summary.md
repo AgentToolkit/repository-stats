@@ -1,57 +1,55 @@
 # GitHub Traffic Data Summary
 
-**Retrieved:** 2026-11-08 04:59:48 UTC
+**Retrieved:** 2026-11-09 05:09:43 UTC
 **Data Period:** Last 14 days (as of retrieval time)
 
 ---
 
 ## Page Views
 
-- **Total Views:** 84
-- **Total Unique Visitors:** 71
+- **Total Views:** 56
+- **Total Unique Visitors:** 43
 - **Days Tracked:** 14
-- **Peak Day:** 2026-10-24T00:00:00Z (30 views)
+- **Peak Day:** 2026-10-27T00:00:00Z (17 views)
 
 ## Repository Clones
 
-- **Total Clones:** 149
-- **Total Unique Cloners:** 82
+- **Total Clones:** 158
+- **Total Unique Cloners:** 85
 - **Days Tracked:** 14
 - **Peak Day:** 2026-10-27T00:00:00Z (47 clones)
 
 ## Popular Paths
 
 1. `/AgentToolkit/altk-boost` - Overview
-   - Views: 16 | Uniques: 15
-2. `/AgentToolkit/altk-boost/blob/1c6bb6d5/pyproject.toml` - /blob/1c6bb6d5/pyproject.toml
-   - Views: 13 | Uniques: 13
-3. `/AgentToolkit/altk-boost/blob/1c6bb6d5/README.md` - /blob/1c6bb6d5/README.md
-   - Views: 10 | Uniques: 10
-4. `/AgentToolkit/altk-boost/pull/116` - /pull/116
-   - Views: 3 | Uniques: 3
-5. `/AgentToolkit/altk-boost/blob/1c6bb6d5/docs/index.md` - /blob/1c6bb6d5/docs/index.md
+   - Views: 15 | Uniques: 14
+2. `/AgentToolkit/altk-boost/pull/116` - /pull/116
+   - Views: 4 | Uniques: 4
+3. `/AgentToolkit/altk-boost/issues` - /issues
    - Views: 2 | Uniques: 2
-6. `/AgentToolkit/altk-boost/blob/1c6bb6d5/docs/integrations/index.md` - /blob/1c6bb6d5/docs/integrations/index.md
+4. `/AgentToolkit/altk-boost/tree/main/altk/post_tool/code_generation` - /tree/main/altk/post_tool/code_generation
    - Views: 2 | Uniques: 2
-7. `/AgentToolkit/altk-boost/issues` - /issues
-   - Views: 2 | Uniques: 2
-8. `/AgentToolkit/altk-boost/tree/main/altk/post_tool/code_generation` - /tree/main/altk/post_tool/code_generation
-   - Views: 2 | Uniques: 2
-9. `/AgentToolkit/agent-lifecycle-toolkit` - cycle-toolkit
+5. `/AgentToolkit/agent-lifecycle-toolkit` - cycle-toolkit
    - Views: 1 | Uniques: 1
-10. `/AgentToolkit/altk-boost/blob/1c6bb6d5/altk/core/toolkit.py` - /blob/1c6bb6d5/altk/core/toolkit.py
+6. `/AgentToolkit/altk-boost/blob/569dd1ba7a4833a2d0aa2e3a8038615b494cedfa/tests/pre_tool/refraction/offline_mode/test_mistakes.py` - /blob/569dd1ba7a4833a2d0aa2e3a8038615b494cedfa/tests/pre_tool/refraction/offline_mode/test_mistakes.py
+   - Views: 1 | Uniques: 1
+7. `/AgentToolkit/altk-boost/blob/main/CONTRIBUTING.md` - /blob/main/CONTRIBUTING.md
+   - Views: 1 | Uniques: 1
+8. `/AgentToolkit/altk-boost/blob/main/altk/core/llm/README.md` - /blob/main/altk/core/llm/README.md
+   - Views: 1 | Uniques: 1
+9. `/AgentToolkit/altk-boost/blob/main/altk/pre_tool/sparc/README.md` - /blob/main/altk/pre_tool/sparc/README.md
+   - Views: 1 | Uniques: 1
+10. `/AgentToolkit/altk-boost/blob/main/docs/concepts/components/json-processor.md` - /blob/main/docs/concepts/components/json-processor.md
    - Views: 1 | Uniques: 1
 
 ## Popular Referrers
 
 1. `aocr.org`
-   - Views: 46 | Uniques: 46
+   - Views: 17 | Uniques: 17
 2. `github-com.btglss.net`
    - Views: 4 | Uniques: 3
 3. `Google`
    - Views: 3 | Uniques: 3
-4. `Baidu`
-   - Views: 1 | Uniques: 1
-5. `tchakra2.com`
+4. `tchakra2.com`
    - Views: 1 | Uniques: 1
 
