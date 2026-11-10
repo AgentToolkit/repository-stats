@@ -1,28 +1,28 @@
 # GitHub Traffic Data Summary
 
-**Retrieved:** 2026-11-09 05:09:48 UTC
+**Retrieved:** 2026-11-10 06:25:25 UTC
 **Data Period:** Last 14 days (as of retrieval time)
 
 ---
 
 ## Page Views
 
-- **Total Views:** 34
+- **Total Views:** 32
 - **Total Unique Visitors:** 24
 - **Days Tracked:** 14
 - **Peak Day:** 2026-10-31T00:00:00Z (6 views)
 
 ## Repository Clones
 
-- **Total Clones:** 37
-- **Total Unique Cloners:** 15
+- **Total Clones:** 2,837
+- **Total Unique Cloners:** 18
 - **Days Tracked:** 14
-- **Peak Day:** 2026-11-02T00:00:00Z (9 clones)
+- **Peak Day:** 2026-11-08T00:00:00Z (2,803 clones)
 
 ## Popular Paths
 
 1. `/AgentToolkit/toolguard` - Overview
-   - Views: 24 | Uniques: 19
+   - Views: 22 | Uniques: 19
 2. `/AgentToolkit/toolguard/blob/main/pyproject.toml` - /blob/main/pyproject.toml
    - Views: 2 | Uniques: 2
 3. `/AgentToolkit/toolguard/blob/main/docs/gen_spec_v2_usage.md` - /blob/main/docs/gen_spec_v2_usage.md
@@ -44,10 +44,10 @@
 
 ## Popular Referrers
 
-1. `Google`
+1. `chatgpt.com`
+   - Views: 5 | Uniques: 2
+2. `Google`
    - Views: 4 | Uniques: 4
-2. `chatgpt.com`
-   - Views: 4 | Uniques: 1
 3. `Bing`
    - Views: 2 | Uniques: 2
 4. `aocr.org`

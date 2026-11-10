@@ -5,29 +5,24 @@
     "uniques": 237
   },
   {
-    "referrer": "huggingface.co",
-    "count": 25,
-    "uniques": 21
+    "referrer": "Bing",
+    "count": 26,
+    "uniques": 13
   },
   {
-    "referrer": "Bing",
-    "count": 25,
-    "uniques": 14
+    "referrer": "huggingface.co",
+    "count": 23,
+    "uniques": 19
   },
   {
     "referrer": "github.com",
-    "count": 19,
-    "uniques": 13
+    "count": 16,
+    "uniques": 12
   },
   {
     "referrer": "Google",
-    "count": 16,
-    "uniques": 13
-  },
-  {
-    "referrer": "agenttoolkit.github.io",
-    "count": 6,
-    "uniques": 4
+    "count": 13,
+    "uniques": 11
   },
   {
     "referrer": "github-com.btglss.net",
@@ -35,9 +30,9 @@
     "uniques": 4
   },
   {
-    "referrer": "linkedin.com",
-    "count": 2,
-    "uniques": 2
+    "referrer": "agenttoolkit.github.io",
+    "count": 5,
+    "uniques": 3
   },
   {
     "referrer": "teams.public.onecdn.static.microsoft",
@@ -47,6 +42,11 @@
   {
     "referrer": "trendshift.io",
     "count": 2,
+    "uniques": 1
+  },
+  {
+    "referrer": "confluence.bilgem.tubitak.gov.tr",
+    "count": 1,
     "uniques": 1
   }
 ]

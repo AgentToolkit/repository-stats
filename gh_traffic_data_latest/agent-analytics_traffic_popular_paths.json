@@ -2,18 +2,18 @@
   {
     "path": "/AgentToolkit/agent-mentor",
     "title": "Overview",
-    "count": 7,
-    "uniques": 6
-  },
-  {
-    "path": "/AgentToolkit/agent-mentor/blob/main/sdk/README.md",
-    "title": "/blob/main/sdk/README.md",
-    "count": 2,
-    "uniques": 1
+    "count": 6,
+    "uniques": 5
   },
   {
     "path": "/AgentToolkit/agent-mentor/activity",
     "title": "/activity",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/agent-mentor/blob/main/CODE_OF_CONDUCT.md",
+    "title": "/blob/main/CODE_OF_CONDUCT.md",
     "count": 1,
     "uniques": 1
   },
