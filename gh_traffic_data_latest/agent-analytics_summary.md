@@ -1,20 +1,20 @@
 # GitHub Traffic Data Summary
 
-**Retrieved:** 2026-11-10 06:25:21 UTC
+**Retrieved:** 2026-11-11 05:11:10 UTC
 **Data Period:** Last 14 days (as of retrieval time)
 
 ---
 
 ## Page Views
 
-- **Total Views:** 14
-- **Total Unique Visitors:** 13
+- **Total Views:** 11
+- **Total Unique Visitors:** 10
 - **Days Tracked:** 14
-- **Peak Day:** 2026-10-26T00:00:00Z (3 views)
+- **Peak Day:** 2026-10-30T00:00:00Z (3 views)
 
 ## Repository Clones
 
-- **Total Clones:** 42
+- **Total Clones:** 35
 - **Total Unique Cloners:** 12
 - **Days Tracked:** 14
 - **Peak Day:** 2026-11-08T00:00:00Z (17 clones)
@@ -31,21 +31,13 @@
    - Views: 1 | Uniques: 1
 5. `/AgentToolkit/agent-mentor/commit/550aba94e69641c442015c04314905da4a8b622a` - /commit/550aba94e69641c442015c04314905da4a8b622a
    - Views: 1 | Uniques: 1
-6. `/AgentToolkit/agent-mentor/forks` - /forks
-   - Views: 1 | Uniques: 1
-7. `/AgentToolkit/agent-mentor/graphs/commit-activity` - /graphs/commit-activity
-   - Views: 1 | Uniques: 1
-8. `/AgentToolkit/agent-mentor/pulls` - /pulls
-   - Views: 1 | Uniques: 1
-9. `/AgentToolkit/agent-mentor/tree/main/sdk` - /tree/main/sdk
+6. `/AgentToolkit/agent-mentor/tree/main/sdk` - /tree/main/sdk
    - Views: 1 | Uniques: 1
 
 ## Popular Referrers
 
 1. `aocr.org`
    - Views: 6 | Uniques: 6
-2. `github-com.btglss.net`
-   - Views: 3 | Uniques: 3
-3. `github.com`
+2. `github.com`
    - Views: 3 | Uniques: 2
 

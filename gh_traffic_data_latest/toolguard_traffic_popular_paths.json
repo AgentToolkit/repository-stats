@@ -3,7 +3,7 @@
     "path": "/AgentToolkit/toolguard",
     "title": "Overview",
     "count": 22,
-    "uniques": 19
+    "uniques": 18
   },
   {
     "path": "/AgentToolkit/toolguard/blob/main/pyproject.toml",
@@ -30,12 +30,6 @@
     "uniques": 1
   },
   {
-    "path": "/AgentToolkit/toolguard/graphs/commit-activity",
-    "title": "/graphs/commit-activity",
-    "count": 1,
-    "uniques": 1
-  },
-  {
     "path": "/AgentToolkit/toolguard/issues",
     "title": "/issues",
     "count": 1,
@@ -44,12 +38,6 @@
   {
     "path": "/AgentToolkit/toolguard/pull/28",
     "title": "/pull/28",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/AgentToolkit/toolguard/pulls",
-    "title": "/pulls",
     "count": 1,
     "uniques": 1
   },
