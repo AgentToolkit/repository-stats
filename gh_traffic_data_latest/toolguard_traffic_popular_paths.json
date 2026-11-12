@@ -2,18 +2,24 @@
   {
     "path": "/AgentToolkit/toolguard",
     "title": "Overview",
-    "count": 22,
-    "uniques": 18
-  },
-  {
-    "path": "/AgentToolkit/toolguard/blob/main/pyproject.toml",
-    "title": "/blob/main/pyproject.toml",
-    "count": 2,
-    "uniques": 2
+    "count": 28,
+    "uniques": 25
   },
   {
     "path": "/AgentToolkit/toolguard/blob/main/docs/gen_spec_v2_usage.md",
     "title": "/blob/main/docs/gen_spec_v2_usage.md",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/toolguard/blob/main/policy_writing_guidelines.md",
+    "title": "/blob/main/policy_writing_guidelines.md",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/AgentToolkit/toolguard/blob/main/pyproject.toml",
+    "title": "/blob/main/pyproject.toml",
     "count": 1,
     "uniques": 1
   },
@@ -32,12 +38,6 @@
   {
     "path": "/AgentToolkit/toolguard/issues",
     "title": "/issues",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/AgentToolkit/toolguard/pull/28",
-    "title": "/pull/28",
     "count": 1,
     "uniques": 1
   },

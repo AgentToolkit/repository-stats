@@ -1,0 +1,52 @@
+[
+  {
+    "referrer": "aocr.org",
+    "count": 227,
+    "uniques": 226
+  },
+  {
+    "referrer": "Bing",
+    "count": 25,
+    "uniques": 14
+  },
+  {
+    "referrer": "Google",
+    "count": 16,
+    "uniques": 10
+  },
+  {
+    "referrer": "huggingface.co",
+    "count": 11,
+    "uniques": 9
+  },
+  {
+    "referrer": "github.com",
+    "count": 11,
+    "uniques": 8
+  },
+  {
+    "referrer": "agenttoolkit.github.io",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "referrer": "teams.public.onecdn.static.microsoft",
+    "count": 2,
+    "uniques": 2
+  },
+  {
+    "referrer": "confluence.wargaming.net",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "referrer": "linkedin.com",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "referrer": "perplexity.ai",
+    "count": 1,
+    "uniques": 1
+  }
+]
