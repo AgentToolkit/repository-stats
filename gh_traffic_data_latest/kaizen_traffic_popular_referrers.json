@@ -6,7 +6,7 @@
   },
   {
     "referrer": "Bing",
-    "count": 26,
+    "count": 22,
     "uniques": 14
   },
   {
@@ -26,12 +26,12 @@
   },
   {
     "referrer": "huggingface.co",
-    "count": 8,
-    "uniques": 5
+    "count": 9,
+    "uniques": 6
   },
   {
     "referrer": "agenttoolkit.github.io",
-    "count": 7,
+    "count": 6,
     "uniques": 4
   },
   {

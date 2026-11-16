@@ -2,8 +2,8 @@
   {
     "path": "/AgentToolkit/altk-boost",
     "title": "Overview",
-    "count": 13,
-    "uniques": 8
+    "count": 11,
+    "uniques": 6
   },
   {
     "path": "/AgentToolkit/altk-boost/blob/main/CHANGELOG.md",
@@ -42,6 +42,12 @@
     "uniques": 1
   },
   {
+    "path": "/AgentToolkit/altk-boost/blob/main/MAINTAINERS.md",
+    "title": "/blob/main/MAINTAINERS.md",
+    "count": 1,
+    "uniques": 1
+  },
+  {
     "path": "/AgentToolkit/altk-boost/blob/main/altk/core/llm/README.md",
     "title": "/blob/main/altk/core/llm/README.md",
     "count": 1,
@@ -50,12 +56,6 @@
   {
     "path": "/AgentToolkit/altk-boost/blob/main/altk/pre_tool/sparc/README.md",
     "title": "/blob/main/altk/pre_tool/sparc/README.md",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/AgentToolkit/altk-boost/blob/main/docs/index.md",
-    "title": "/blob/main/docs/index.md",
     "count": 1,
     "uniques": 1
   }
