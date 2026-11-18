@@ -1,18 +1,18 @@
 [
   {
     "referrer": "Google",
-    "count": 5,
-    "uniques": 5
+    "count": 6,
+    "uniques": 6
   },
   {
     "referrer": "chatgpt.com",
-    "count": 4,
+    "count": 6,
     "uniques": 2
   },
   {
     "referrer": "Bing",
-    "count": 1,
-    "uniques": 1
+    "count": 2,
+    "uniques": 2
   },
   {
     "referrer": "aocr.org",
