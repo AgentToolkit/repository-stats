@@ -1,28 +1,28 @@
 # GitHub Traffic Data Summary
 
-**Retrieved:** 2026-11-18 06:25:30 UTC
+**Retrieved:** 2026-11-19 06:26:52 UTC
 **Data Period:** Last 14 days (as of retrieval time)
 
 ---
 
 ## Page Views
 
-- **Total Views:** 7
-- **Total Unique Visitors:** 7
+- **Total Views:** 8
+- **Total Unique Visitors:** 8
 - **Days Tracked:** 14
 - **Peak Day:** 2026-11-05T00:00:00Z (3 views)
 
 ## Repository Clones
 
-- **Total Clones:** 39
-- **Total Unique Cloners:** 15
+- **Total Clones:** 41
+- **Total Unique Cloners:** 17
 - **Days Tracked:** 14
 - **Peak Day:** 2026-11-08T00:00:00Z (17 clones)
 
 ## Popular Paths
 
 1. `/AgentToolkit/agent-mentor` - Overview
-   - Views: 2 | Uniques: 2
+   - Views: 3 | Uniques: 3
 2. `/AgentToolkit/agent-mentor/activity` - /activity
    - Views: 1 | Uniques: 1
 3. `/AgentToolkit/agent-mentor/blob/main/CODE_OF_CONDUCT.md` - /blob/main/CODE_OF_CONDUCT.md
@@ -38,4 +38,6 @@
 
 1. `aocr.org`
    - Views: 3 | Uniques: 3
+2. `github.com`
+   - Views: 1 | Uniques: 1
 
