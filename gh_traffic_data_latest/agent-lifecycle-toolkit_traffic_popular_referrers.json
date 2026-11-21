@@ -1,8 +1,8 @@
 [
   {
-    "referrer": "aocr.org",
-    "count": 8,
-    "uniques": 8
+    "referrer": "Google",
+    "count": 3,
+    "uniques": 3
   },
   {
     "referrer": "agenttoolkit.github.io",
@@ -10,12 +10,12 @@
     "uniques": 1
   },
   {
-    "referrer": "Google",
+    "referrer": "github.com",
     "count": 2,
-    "uniques": 2
+    "uniques": 1
   },
   {
-    "referrer": "github.com",
+    "referrer": "pypi.org",
     "count": 2,
     "uniques": 1
   }

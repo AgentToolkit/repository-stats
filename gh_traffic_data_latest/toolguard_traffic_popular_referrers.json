@@ -6,17 +6,12 @@
   },
   {
     "referrer": "Google",
-    "count": 7,
-    "uniques": 7
+    "count": 6,
+    "uniques": 6
   },
   {
     "referrer": "Bing",
     "count": 2,
     "uniques": 2
-  },
-  {
-    "referrer": "aocr.org",
-    "count": 1,
-    "uniques": 1
   }
 ]
