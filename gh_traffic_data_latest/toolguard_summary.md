@@ -1,14 +1,14 @@
 # GitHub Traffic Data Summary
 
-**Retrieved:** 2026-11-21 06:03:15 UTC
+**Retrieved:** 2026-11-22 05:39:33 UTC
 **Data Period:** Last 14 days (as of retrieval time)
 
 ---
 
 ## Page Views
 
-- **Total Views:** 38
-- **Total Unique Visitors:** 26
+- **Total Views:** 39
+- **Total Unique Visitors:** 27
 - **Days Tracked:** 14
 - **Peak Day:** 2026-11-11T00:00:00Z (6 views)
 
@@ -22,7 +22,7 @@
 ## Popular Paths
 
 1. `/AgentToolkit/toolguard` - Overview
-   - Views: 33 | Uniques: 24
+   - Views: 34 | Uniques: 25
 2. `/AgentToolkit/toolguard/blob/main/policy_writing_guidelines.md` - /blob/main/policy_writing_guidelines.md
    - Views: 3 | Uniques: 2
 3. `/AgentToolkit/toolguard/blob/main/docs/gen_spec_v2_usage.md` - /blob/main/docs/gen_spec_v2_usage.md
