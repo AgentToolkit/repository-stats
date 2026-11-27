@@ -2,18 +2,12 @@
   {
     "path": "/AgentToolkit/altk-boost",
     "title": "Overview",
-    "count": 12,
-    "uniques": 7
+    "count": 14,
+    "uniques": 9
   },
   {
     "path": "/AgentToolkit/altk-boost/blob/main/CHANGELOG.md",
     "title": "/blob/main/CHANGELOG.md",
-    "count": 2,
-    "uniques": 2
-  },
-  {
-    "path": "/AgentToolkit/altk-boost/issues/119",
-    "title": "/issues/119",
     "count": 2,
     "uniques": 2
   },
@@ -48,14 +42,20 @@
     "uniques": 1
   },
   {
+    "path": "/AgentToolkit/altk-boost/blob/main/altk/pre_llm/spotlight/spotlight.py",
+    "title": "/blob/main/altk/pre_llm/spotlight/spotlight.py",
+    "count": 1,
+    "uniques": 1
+  },
+  {
     "path": "/AgentToolkit/altk-boost/graphs/contributors",
     "title": "/graphs/contributors",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/AgentToolkit/altk-boost/tree/main/altk",
-    "title": "/tree/main/altk",
+    "path": "/AgentToolkit/altk-boost/issues/119",
+    "title": "/issues/119",
     "count": 1,
     "uniques": 1
   }
