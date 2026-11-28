@@ -1,27 +1,27 @@
 [
   {
-    "referrer": "github.com",
-    "count": 28,
-    "uniques": 14
-  },
-  {
     "referrer": "Google",
-    "count": 26,
-    "uniques": 17
+    "count": 24,
+    "uniques": 16
   },
   {
     "referrer": "Bing",
-    "count": 22,
-    "uniques": 10
+    "count": 21,
+    "uniques": 9
+  },
+  {
+    "referrer": "github.com",
+    "count": 20,
+    "uniques": 9
   },
   {
     "referrer": "linkedin.com",
-    "count": 16,
-    "uniques": 15
+    "count": 13,
+    "uniques": 13
   },
   {
     "referrer": "agenttoolkit.github.io",
-    "count": 7,
+    "count": 5,
     "uniques": 4
   },
   {
@@ -35,7 +35,7 @@
     "uniques": 4
   },
   {
-    "referrer": "com.linkedin.android",
+    "referrer": "pypi.org",
     "count": 3,
     "uniques": 3
   },
@@ -45,7 +45,7 @@
     "uniques": 1
   },
   {
-    "referrer": "confluence.bilgem.tubitak.gov.tr",
+    "referrer": "com.linkedin.android",
     "count": 1,
     "uniques": 1
   }
